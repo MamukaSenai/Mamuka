@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    resize: none;
+}
+
+body { 
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+
+:root{
+    --azulescuro: #405189;
+    --branco: #ffffff;
+    --azulClaro: #0073EA;
+    --cinza: #2C2E3E;
+    --cinzaclaro: #7C7C7C;
+    --fonte: 'Noto Sans', sans-serif;
+    
+
+}
+
+.superior {
+    background-color: var(--azulescuro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.menu {
+    background-color: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--branco);
+    height: 100vh;
+    text-align: center;
+}
+
+.menu p {
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    /*padding: 0 10px;*/
+}
+.barras {
+    display: flex;
+    font-family: var(--fonte);
+    font-weight: 700;
+}
+
+#burger {
+    font-size: 30px;
+    padding: 30px 0;
+    cursor: pointer;
+}
+
+.ricardo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: var(--branco);
+
+}
+
+#seta {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.campotexto{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+#lupa {
+    padding: 10px;
+    position: absolute;
+    color: var(--cinzaclaro);
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+}
