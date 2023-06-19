@@ -1,0 +1,95 @@
+*{
+ padding: 0;
+ margin: 0;
+ border: 0;
+ box-sizing:border-box;
+}
+
+:root{
+ --azulescuro: #405189;
+ --azul: #0073ea;
+ --branco: #ffffff;
+ --azulescuromais: #2e2e3e<p class="cabe">pesquisa</p>;
+}
+.paginadecadastro2{
+  display: flex;
+}
+
+    
+
+
+  
+.cabecario{
+    background-color: var(--azulescuro);
+    width: 100%;
+    
+    justify-content: center;
+    
+    display: flex;
+    
+    
+    
+}
+  .logo{
+    background-color: var(--branco);
+    width: 200px;
+    height: 40px;
+    padding: 35px;
+    
+
+    
+    
+
+    
+  }
+
+  .cabe{
+    display: flex;
+    justify-content: center;
+  }
+input{
+  display: flex;
+  width: 40px;
+  height: 20;
+
+
+}
+
+.foto{
+  width: 40px;
+  height: 20px;
+  
+}
+.centro{
+  display: flex;
+  position: absolute;
+  
+}
+.bonequinho{
+  display: flex;
+  padding: 300px;
+  
+}
+.perfil{
+  display: flex;
+  padding: 400px;
+  position: relative;
+}
+.administrador{
+  display: flex;
+}
+.cargo{
+  display: flex;
+}
+.inputgerente{
+  display: flex;
+}
+.numerodousuario{
+  display: flex;
+}
+.salvar{
+  display: flex;
+}
+.bottom{
+  display: flex;
+}
