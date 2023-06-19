@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: #2C2E3E;
+   }
+   
+.header {
+    height: 85px;
+    display: flex;
+    align-items: center;
+
+}
+
+:root{
+    --azulescuro: #405189;
+    --branco: #fff;
+    --azulbotão: #0073EA;
+    --azul_cinza: #2C2E3E;
+}
+
+.paginaHome{
+    display: flex;
+    /* margin-left: 100px; */
+}
+
+.logo{
+    margin: 60px;
+}
+
+.logo img {
+    width: 250px;
+
+}
+
