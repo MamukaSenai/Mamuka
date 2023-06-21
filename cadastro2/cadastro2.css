@@ -9,87 +9,109 @@
  --azulescuro: #405189;
  --azul: #0073ea;
  --branco: #ffffff;
- --azulescuromais: #2e2e3e<p class="cabe">pesquisa</p>;
+ --azulescuromais: #2e2e3e;
+
 }
-.paginadecadastro2{
-  display: flex;
-}
+
+  
+
 
     
 
 
   
 .cabecario{
-    background-color: var(--azulescuro);
-    width: 100%;
     
-    justify-content: center;
+    
+    align-items: center;
+    
+    
+    
+    
     
     display: flex;
     
     
     
 }
-  .logo{
-    background-color: var(--branco);
-    width: 200px;
-    height: 40px;
-    padding: 35px;
+    
     
 
     
     
 
     
-  }
+  
 
-  .cabe{
-    display: flex;
-    justify-content: center;
-  }
+  
+  
 input{
   display: flex;
-  width: 40px;
-  height: 20;
+  width: 200px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  
+  border-radius: 20px;
+  
+  
+  
 
 
+
+}
+.ricardosouza p{
+  color: var(--branco);
+  
 }
 
 .foto{
   width: 40px;
   height: 20px;
+  justify-content: center;
   
 }
 .centro{
   display: flex;
-  position: absolute;
-  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .bonequinho{
   display: flex;
-  padding: 300px;
+  justify-content: center;
+  align-items: center;
   
 }
 .perfil{
+   width: 40px;
+   height: 20px;
+   display: flex;
+   align-items: center;
+}
+
+.inpuperfil{
   display: flex;
-  padding: 400px;
+  width: 200px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
   position: relative;
+  border-radius: 20px;
 }
-.administrador{
+.coluna{
+  background-color: #2e2e3e;
+  color: #ffffff;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
 }
-.cargo{
+.manu_links{
+  background-color: #405189;
   display: flex;
-}
-.inputgerente{
-  display: flex;
-}
-.numerodousuario{
-  display: flex;
-}
-.salvar{
-  display: flex;
-}
-.bottom{
-  display: flex;
+  
+  
 }
