@@ -18,14 +18,21 @@
     --font2: 'Righteous', cursive;
     }
 
+main
+    { 
+    /* padding limita a area de trabalho da tela main  */
+    padding: 10px 10px 10px 220px;
+    /* background: var(--azulC); */
+    }
+
+
 
 body
     {
         position: relative;
         min-height: 100vh;
         width: 100%;
-        overflow: hidden;
-        
+        overflow: hidden;   
     }
 
     
@@ -74,6 +81,7 @@ body
 
 .menu_sup
     {
+        display: flex;
         padding: 25px 300px;
         background: var(--azulM)
     }
@@ -97,3 +105,32 @@ body
         height:32px;
         width:260px;
     }
+
+
+
+
+.label-input 
+    {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    }
+
+.label-input label 
+    {
+    color: var(--preto);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    }
+
+.label-input input 
+    {
+    height: 60px;
+    border-radius: 7px;
+    border: none;
+    text-indent: 5px;
+    font-size: 30px;
+    background-color: var(--preto);
+    color: var(--preto);
+    }
+

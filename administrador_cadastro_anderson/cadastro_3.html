@@ -12,39 +12,50 @@
 
 <body>
 
-    <!-- cabecalho -->
+<!-- cabecalho -->
     <header> 
-        
-    </header>
+    
 
-    <!-- https://www.youtube.com/watch?v=wEfaoAa99XY tempo 4.39-->
-    <!-- boxincons.com  Link -->
-    <!-- corpo da pagina-->
-    <main>
+                 <div class="menu_sup">
+                    <div>
+                        <img src="../img/Logo.png" alt=""> 
+                    </div>
+                    
+                    <div id="divBusca">
+                        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                        <img src="search3.png" id="btnBusca" alt="Buscar"/>
+                    </div>    
+
+                    <div>
+                        <img src="../img/Ricardo.png" alt="">
+                    </div>
+                </div>      
+    </header>
+<!-- fim cabecalho -->
+
+
+<!-- barra lateral -->
+    <aside>
+
         <!-- BARRA LATERAL -->
         <div class="sidebar">
             <div class="logo_content">
-                <img src="../Projeto_Mamuka/img/MENU.png" alt="">  
+                <img src="../img/menu_hamburgue.png" alt="">  
                 <!-- <i class="bx bx-menu" id="btn"></i> -->
             </div>
             <ul class="nav_list">
                 <li>
                     <a href="#">
-                        <!-- <i class="bx bx-grid-alt"></i> -->
                         <span class="link_name">projeto</span>
                     </a>
-                    <!-- <span class="tooltip">dashboard</span> -->
                 </li>
                 <li>
                     <a href="#">
-                        <!-- <i class="bx bx-grid-alt"></i> -->
                         <span class="link_name">cadastro</span>
                     </a>
-                    <!-- <span class="tooltip">dashboard</span> -->
                 </li>
                 <li>
                     <a href="#">
-                        <!-- <i class="bx bx-grid-alt"></i> -->
                         <span class="link_name">consulta</span>
                     </a>
                     <!-- <span class="tooltip">dashboard</span> -->
@@ -53,18 +64,40 @@
           </div>          
       <!-- BARRA LATERAL FIM -->
 
-            <div class="menu_sup">
-                <img src="../Projeto_Mamuka/img/logo.png" alt=""> 
-          
-                    <div id="divBusca">
-                    <input type="text" id="txtBusca" placeholder="Buscar..."/>
-                    <img src="search3.png" id="btnBusca" alt="Buscar"/>
-                    </div>
-          
-            </div>
+</aside>
+<!-- barra lateral -->
 
 
+    <!-- https://www.youtube.com/watch?v=wEfaoAa99XY tempo 4.39-->
+    <!-- boxincons.com  Link -->
+    <!-- corpo da pagina-->
+    <main>
+        
+        <form>
+                <div>
+                <img src="../img/PessoaCadastro.png" alt="">            
+                </div>
+            
+                <div>
+                <img src="img/logo.png" alt="">
+                </div>
                 
+                <div class="label-input">
+                    <label for="campo-usuario">Email:</label>
+                    <input placeholder="ricardosouza1980@gmail.com" name="usuario" id="campo-usuario">  
+                </div>
+
+
+                <div class="label-input">
+                    <label pfor="campo-senha">Email:</label>
+                    <input placeholder="ricardosouza1980@gmail.com" name="senha" id="campo-senha">
+                </div>
+
+                <div>
+                    <button type="submit">salvar</button> 
+                </div>        
+
+        </form>  
             
 
 
