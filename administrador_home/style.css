@@ -1,36 +1,100 @@
 *{
-    margin: 0;
     padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    background-color: #2C2E3E;
-   }
-   
-.header {
-    height: 85px;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    position: absolute;
+    width: 1771px;
+    height: 135px;
+    left: 150px;
+    top: 0px;
+    
+}
+
+.menu.lateral {
+  content: counter(name);
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content:  space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
     display: flex;
     align-items: center;
-
 }
 
-:root{
-    --azulescuro: #405189;
-    --branco: #fff;
-    --azulbotão: #0073EA;
-    --azul_cinza: #2C2E3E;
+.logo h1 {
+    color: #fff;
 }
 
-.paginaHome{
+.nav-list {
     display: flex;
-    /* margin-left: 100px; */
+    align-items: center;
 }
 
-.logo{
-    margin: 60px;
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
-.logo img {
-    width: 250px;
-
+.nav-item {
+    margin: 0 15px;
 }
 
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    background-color: #0187a7;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  font-family: "Raleway";
+  box-sizing: border-box;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00BAF0;
+  background: linear-gradient(to left, #f46b45, #eea849);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #FFF;
+  height: 50px;
+  padding: 1em;
+}
