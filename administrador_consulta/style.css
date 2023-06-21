@@ -4,11 +4,11 @@
     box-sizing: border-box;
     resize: none;
 }
-
+/*
 body { 
     overflow-x: hidden; 
     overflow-y: hidden;
-}
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
@@ -34,17 +34,36 @@ body {
     height: 80px;
 }
 
-.menu {
+.logo img {
+    width: 180px;
+    padding-left: 20px;
+} 
+
+.menu1 {
+    background-color: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--branco);
+    /*height: 100vh; */
+    height: 80px;
+    width: 100px;
+    text-align: center;
+}
+
+
+.left {
     background-color: var(--cinza);
     display: flex;
     flex-direction: column;
     align-items: center;
     color: var(--branco);
     height: 100vh;
+    width: 93.5px;
     text-align: center;
 }
 
-.menu p {
+.left p {
     padding-top: 30px;
     padding-right: 10px;
     padding-left: 10px;
@@ -91,4 +110,19 @@ body {
 .pesquisa {
     display: flex;
     align-items: center;
+}
+
+
+main {
+    display: flex;
+    
+}
+
+
+.card_superior .card_inferior  {
+    box-sizing: border-box;
+}
+
+.right {
+    display: flex;
 }
