@@ -4,11 +4,11 @@
     box-sizing: border-box;
     resize: none;
 }
-/*
+
 body { 
     overflow-x: hidden; 
     overflow-y: hidden;
-} */
+} 
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
@@ -59,7 +59,7 @@ body {
     align-items: center;
     color: var(--branco);
     height: 100vh;
-    width: 93.5px;
+    width: 9.5vw;
     text-align: center;
 }
 
@@ -68,7 +68,11 @@ body {
     padding-right: 10px;
     padding-left: 10px;
     /*padding: 0 10px;*/
+    display: flex;
+    font-family: var(--fonte);
+    font-weight: 700;
 }
+
 .barras {
     display: flex;
     font-family: var(--fonte);
@@ -119,10 +123,48 @@ main {
 }
 
 
-.card_superior .card_inferior  {
-    box-sizing: border-box;
+.card_superior   {
+    
+    display: flex;
+    border: solid 1px var(--cinzaclaro);
+    flex-direction: column;
+    border-radius: 5px;
+    border-left: 10px solid var(--azulClaro);
+    border-right: 10px solid var(--azulClaro);
+    
+}
+
+.card_inferior  {
+    border: solid 1px var(--cinzaclaro);
+    
+    border-radius: 5px;
+    border-left: 10px solid var(--azulClaro);
+    border-right: 10px solid var(--azulClaro);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .right {
     display: flex;
+    display: flex;
+    width: calc(100vw - -90px);
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte1);
+    color: var(--branco);
+}
+
+.link {
+    height: 100vh;
+    width: 40vh;
+    margin: 2vh;
+    color: var(--cinzaclaro);
+    
+    display: flex;
+    
 }
