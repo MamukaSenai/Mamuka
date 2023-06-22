@@ -5,18 +5,51 @@
  box-sizing:border-box;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 :root{
  --azulescuro: #405189;
  --azul: #0073ea;
  --branco: #ffffff;
  --azulescuromais: #2e2e3e;
+ font: 1em sans-serif;
 
 }
 
+.topo{
   
+    background-color: var(--azulescuro);
+
+}
 
 
-    
+
+
+.elementosdaesquerdas{
+  background-color: #2e2e3e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--branco);
+  
+  text-align: center;
+}
+.manu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.amor{
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+
+
 
 
   
