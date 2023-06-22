@@ -1,8 +1,17 @@
 *{
-    padding: 0;
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    border: 0;
+    box-sizing: border-box;
+    resize: nome;
 }
+
+body {
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
 
 header {
     position: absolute;
