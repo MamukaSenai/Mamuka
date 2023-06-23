@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
@@ -10,14 +10,14 @@
 
 
 
-:root{
+:root {
     --azulescuro: #405189;
     --branco: #ffffff;
     --azulClaro: #0073EA;
     --cinza: #2C2E3E;
     --cinzaclaro: #7C7C7C;
     --fonte1: 'Raleway', sans-serif;
-    
+
 
 }
 
@@ -47,11 +47,12 @@
     text-align: center;
     width: 10%;
     z-index: 3;
- }
+}
 
 .menu p {
     padding-top: 30px;
 }
+
 .geralmenus {
     display: flex;
     font-family: 'Raleway', sans-serif;
@@ -77,7 +78,7 @@
     cursor: pointer;
 }
 
-.campotexto{
+.campotexto {
     width: 300px;
     height: 30px;
     border-radius: 10px;
@@ -118,9 +119,9 @@
     height: 100px;
     padding-top: 15px;
     font-weight: 700;
-    font-size: 20px; 
+    font-size: 20px;
     margin: 0 15px;
-}   
+}
 
 .valores {
     padding-top: 10px;
@@ -138,6 +139,51 @@
     width: 100%;
 }
 
-/* .xy {
+.xy {
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    margin: 10px;
+    height: 200px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-} */
+.grafico {
+    color: var(--cinzaclaro);
+    text-align: center;
+}
+
+.aqua {
+    background-color: #66CAEA;
+    width: 150px;
+    height: 25px;
+}
+
+
+.azul {
+    background-color: #2A08FC;
+    width: 200px;
+    height: 25px;
+}
+
+.violeta {
+    background-color: #902EF9;
+    width: 120px;
+    height: 25px;
+}
+
+.laranja {
+    background-color: #DF590D;
+    width: 30px;
+    height: 25px;
+
+}
+
+.numeros {
+    width: 30%;
+    margin: -10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
