@@ -28,6 +28,12 @@ body
         
     }
 
+    main{
+        width: calc(100vw - 170px);
+        height: calc(100vh - 80px);
+        margin-left: 170px;
+    }
+
  
 .sidebar
     {
@@ -77,9 +83,15 @@ body
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 700px;
-        padding: 30px 400px;
+        justify-content: space-between;
+        padding-left: 200px;
         background: var(--azulM)
+    }
+
+    .barra_pesquisa{
+        width: 400px;
+        height: 35px;
+        border-radius: 10px;
     }
 
  #divBusca
@@ -100,4 +112,46 @@ body
         border:none;
         height:32px;
         width:260px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+    }
+
+    .formulario{
+        padding: 70px 70px;
+        border-radius: 10px;
+        border-width: 5px 1px;
+        border-color: #0073EA #7c7c7c;
+        border-style: solid;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .input-box{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Gestor{
+        
+    }
+
+    .linha1{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+
+    .linha2{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
     }
