@@ -134,3 +134,9 @@ body
     color: var(--preto);
     }
 
+
+  
+	table, th, td {
+		border: 0px solid black;
+	}
+   
