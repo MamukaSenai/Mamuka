@@ -32,6 +32,8 @@
   flex-direction: column;
   align-items: center;
   color: var(--branco);
+  width: 10%;
+  height: 100vh;
   
   text-align: center;
 }
@@ -48,80 +50,110 @@
   align-items: center;
 }
 
-
-
-
-
-  
-.cabecario{
-    
-    
-    align-items: center;
-    
-    
-    
-    
-    
-    display: flex;
-    
-    
-    
+#pulo{
+  font-size: 40px;
+  padding: 30px 0;
 }
-    
-    
 
-    
-    
-
-    
-  
 
   
-  
-input{
-  display: flex;
-  width: 200px;
-  height: 20px;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-  
-  border-radius: 20px;
   
   
   
 
 
-
+.zaza p{
+  padding-top: 30px;
+  font-weight: 700;
 }
+
 .ricardosouza p{
   color: var(--branco);
   
 }
+.botao{
+  
+  margin: 30px;
+}
 
-.foto{
-  width: 40px;
-  height: 20px;
-  justify-content: center;
+.direita {
+  border-radius: 10px;
+  font-size: 20px;
+  border: 2px solid #7c7c7c;
+  display: flex;
+  padding: 6px;
+  margin: 5px;
   
 }
+
+.direita p{
+    padding: 6px;
+
+}
+
+.corpo{
+  background-color: #405189;
+  display: flex;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+
+  
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+  
+
+  
+  
+
+
+
+
 .centro{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
 }
 .bonequinho{
   display: flex;
   justify-content: center;
   align-items: center;
   
+  
 }
 .perfil{
-   width: 40px;
-   height: 20px;
-   display: flex;
-   align-items: center;
+   border-radius: 10px;
+   font-size: 20px;
+   border: 2px solid #7c7c7c;
+   
+   
+}
+
+.salvar{
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #405189;
+  padding: 15px;
 }
 
 .inpuperfil{
