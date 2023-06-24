@@ -146,19 +146,29 @@ tr:nth-child(even){
     background-color: #364a5a;
 }
 
+
+tr:nth-child(even){
+    border: solid 1px var(--cinzaclaro) ;
 }
-*/
 
 table {
     border: solid 1px var(--cinzaclaro);
     border-radius: 10px;
+ 
+}
+*/
+
+
+
+table {
+    border: 1px solid var(--cinzaclaro);
+    border-radius: 10px;
+    
     
 }
 
 
-tr:nth-child(even){
-    border-: solid 1px var(--cinzaclaro) ;
-}
+
 
 .button {
     border-radius: 1px;
