@@ -69,7 +69,7 @@
 
     <main>
 
-        <span class="Gestor">Gestor/ Criar Demandas</span>
+        <span class="Gestor">Gestor/Criar Demandas</span>
 
         <div class="container">
 
@@ -77,61 +77,68 @@
  
                     <div class="input-box">
                         <label for="firstname">Nome do projeto:</label>
-                        <input id="firstname" type="firstname" name="firstname" placeholder="Laboratório 1"
+                        <input type="text" name="firstname" placeholder="Laboratório 1"
                             required>
                     </div>
 
-                    <div class="linha1">
+                    <!-- <div class="linha1"> -->
+                        <div>
+                            <div class="input-box">
+                                <label for="Status">Status:</label>
+                                <input type="text" name="Status" placeholder="Inicial"
+                                    required>
+                            </div>
+        
+                            <div class="input-box">
+                                <label for="ID_do_projeto">ID do projeto:</label>
+                                <input type="password" name="ID_do_projeto" placeholder="100/23"
+                                    required>
+                            </div>
+                            
+                        </div>
+                    
+                        <div>
+                            <div class="input-box">
+                                <label for="Grupo">Grupo:</label>
+                                <input type="text" name="Grupo" placeholder="Fase 1" required>
+                            </div>
 
-                    <div class="input-box">
-                        <label for="lastname">Status:</label>
-                        <input id="lastname" type="lastname" name="lastname" placeholder="Inicial"
-                            required>
-                    </div>
+                            <div class="input-box">
+                                <label for="Inicio">Inicio:</label>
+                                <input type="date" name="Inicio" placeholder="12/04/2023" required>
+                            </div>
 
-                    <div class="input-box">
-                        <label for="firstname">ID do projeto:</label>
-                        <input id="firstname" type="firstname" name="firstname" placeholder="100/23"
-                            required>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="email">Grupo:</label>
-                        <input id="email" type="email" name="email" placeholder="Fase 1" required>
-                    </div>
+                        </div>
+                    
 
                 </div>
 
                 <div class="linha2">
 
-                    <div class="input-box">
-                        <label for="number">Inicio:</label>
-                        <input id="number" type="tel" name="number" placeholder="12/04/2023" required>
-                    </div>
 
                     <div class="input-box">
-                        <label for="password">Conclusão:</label>
-                        <input id="password" type="password" name="password" placeholder="28/11/2023" required>
+                        <label for="Conclusão">Conclusão:</label>
+                        <input type="date" name="Conclusão" placeholder="28/11/2023" required>
                     </div>
 
                     
                     <div class="input-box">
-                        <label for="password">Gestor do projeto:</label>
-                        <input id="password" type="password" name="password" placeholder="Ricardo Souza" required>
+                        <label for="Gestor_do_projeto">Gestor do projeto:</label>
+                        <input type="text" name="Gestor do projeto" placeholder="Ricardo Souza" required>
                     </div>
 
                     </div>
 
 
                     <div class="input-box">
-                        <label for="Confirmpassword">Responsáveis::</label>
-                        <textarea id="Confirmpassword" type="password" name="Confirmpassword"
-                            placeholder="Nicolas de Oliveira e Trellini" required>
+                        <label for="Responsáveis">Responsáveis:</label>
+                        <input type="text" name="Responsáveis" placeholder="Nicolas de Oliveira e Trellini" required>
+                        
                     </div>
 
 
                 <div class="continue-button">
-                    <button><a href="#">criar</a></button>
+                    <button>Criar</button>
 
                 </div>
 
