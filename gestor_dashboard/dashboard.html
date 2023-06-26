@@ -8,6 +8,8 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="dashboard.css">
     <script src="https://kit.fontawesome.com/99925c18c8.js" crossorigin="anonymous"></script>
+    <script src="./dashboard.js"></script>
+
 </head>
 
 <body>
@@ -27,16 +29,16 @@
                     <i class="fa-solid fa-caret-down" id="seta"></i>
                 </div>
             </nav>
-
         </section>
     </header>
+    <aside class="menu">
+        <div><i class="fa-solid fa-bars" id="hamb"></i></div>
+        <p>Projetos</p>
+        <p>Criar Projetos</p>
+        <p>Criar Demandas</p>
+    </aside>
     <main>
-        <aside class="menu">
-            <div><i class="fa-solid fa-bars" id="hamb"></i></div>
-            <p>Projetos</p>
-            <p>Criar Projetos</p>
-            <p>Criar Demandas</p>
-        </aside>
+
         <section class="geralconteudo">
             <div class="alinhamento">
                 <div class="painel configconteudo">
@@ -64,26 +66,43 @@
                 <div class="grafico configconteudo">
                     <p>Projetos por Desenvolvedor</p>
                     <div class="xy">
-                        <div class="aqua">
+                        <!-- <div class="bar-group">
+                            <div class="bar-label">Bruno</div>
+                            <div class="aqua">
+                            </div>
                         </div>
                         <div class="azul">
                         </div>
                         <div class="violeta">
                         </div>
                         <div class="laranja">
+                        </div> -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3 class="progress-title">Bruno Peripato</h3>
+                                    <div class="progress pink">
+                                        <div class="progress-bar">
+                                            <div class="progress-value">13</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="numeros">
+                    <!-- <div class="numeros">
                         <p>0</p>
                         <p>10</p>
                         <p>20</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="dashboard">
 
                 </div>
             </div>
         </section>
+        <!-- teste -->
+
     </main>
 </body>
 
