@@ -1,0 +1,100 @@
+:root{
+    --azulescuro: #405189;
+    --branco: #ffffff;
+    --azulClaro: #0073EA;
+    --cinza: #2C2E3E;
+    --cinzaclaro: #7C7C7C;
+    --fonte: 'Noto Sans', sans-serif;
+    --vermelho: #F22D2D;
+    --laranja: #F9784F;
+    --verde: #26CB7B;
+}
+
+
+* {
+    /* Change your font family */
+    font-family: sans-serif;
+}
+
+svg {
+    fill: var(--cinzaclaro);
+}
+
+#seta {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+tbody {
+    color: black;
+}
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0 ; /* para borda com o hidden*/
+    overflow: hidden;
+}
+
+.content-table thead tr {
+    background-color: var(--azulClaro);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--azulClaro);
+}
+
+/*
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: var(--azulClaro);
+} linha com cor de font */
+
+
+.button {
+    border-radius: 1px;
+}
+
+.btn {
+    color: var(--branco);
+    background-color: var(--azulClaro);
+    border: 1px solid var(--azulClaro);
+    border-radius: 10px;
+    font-weight: bold;
+}
+  
+.concluido {
+    color: var(--branco);
+    background-color: var(--verde);
+    font-weight: bold;
+}
+
+.andamento {
+    color: var(--branco);
+    background-color: var(--laranja);
+    font-weight: bold;
+  }
+
+.cancelado {
+    color: var(--branco);
+    background-color: var(--vermelho);
+    font-weight: bold;
+} 

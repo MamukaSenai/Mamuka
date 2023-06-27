@@ -8,15 +8,15 @@
     border: 0;
     box-sizing: border-box;
     resize: none;
+    font-family: "Core Sans G";
 }
 
 body { 
     overflow-x: hidden; 
     overflow-y: hidden;
-    font-family: "Core Sans G";
+    
 } 
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 
 
@@ -26,7 +26,6 @@ body {
     --azulClaro: #0073EA;
     --cinza: #2C2E3E;
     --cinzaclaro: #7C7C7C;
-    --fonte: 'Noto Sans', sans-serif;
     
 
 }
