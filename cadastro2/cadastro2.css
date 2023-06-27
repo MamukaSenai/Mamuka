@@ -3,6 +3,12 @@
  margin: 0;
  border: 0;
  box-sizing:border-box;
+ font-family: "Core Sans G";
+}
+
+@font-face {
+  font-family:"Core Sans G" ;
+  src: url(../Fontes/Core_Sans_G/CoreSansG-Regular.ttf);
 }
 
 
@@ -24,7 +30,10 @@
 }
 
 
-
+main{
+  display: flex;
+  justify-content: space-between;
+}
 
 .elementosdaesquerdas{
   background-color: #2e2e3e;
@@ -41,6 +50,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 10px;
 
 
 }
@@ -55,6 +65,10 @@
   padding: 30px 0;
 }
 
+.ali{
+  border-radius: 20px;
+  border: 2px;
+}
 
   
   
@@ -74,15 +88,29 @@
 .botao{
   
   margin: 30px;
+  border-radius: 20px;
 }
 
+
+.posicao{
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.linha_conteudo{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
 .direita {
   border-radius: 10px;
-  font-size: 20px;
-  border: 2px solid #7c7c7c;
+  font-size: 15px;
+  border: 1px solid #7c7c7c;
   display: flex;
-  padding: 6px;
+  padding:0 6px;
   margin: 5px;
+  justify-content: flex-end;
   
 }
 
@@ -94,66 +122,60 @@
 .corpo{
   background-color: #405189;
   display: flex;
-  border-radius: 15px;
+  border-radius: 10px;
   color: #ffffff;
 }
 
-
+.esquerda p{
+  color: #7c7c7c;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  border-radius: 15px;
+  padding: 10px;
+  padding-top: 10px;
+  flex-direction: row-reverse;
   
-    
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-
-    
-    
-
-    
-  
-
-  
-  
-
-
-
+}
 
 .centro{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 auto;
+
+  width: 400px;
   
+  
+  border-top: 4px solid var(--azul);
+  border-bottom: 4px solid var(--azul) ;
+  border-left: 2px solid #7c7c7c;
+  border-right:  2px solid #7c7c7c;
+  justify-content: center;
 }
+
 .bonequinho{
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
-}
-.perfil{
-   border-radius: 10px;
-   font-size: 20px;
-   border: 2px solid #7c7c7c;
-   
-   
 }
 
-.salvar{
-  font-size: 20px;
+  .perfil{
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid #7c7c7c;
+    
+    
+ }
+
+ .salvar{
+  font-size: 15px;
   color: #ffffff;
   background-color: #405189;
-  padding: 15px;
+  padding: 10px;
+  display: flex;
 }
 
 .inpuperfil{
@@ -166,6 +188,7 @@
   position: relative;
   border-radius: 20px;
 }
+
 .coluna{
   background-color: #2e2e3e;
   color: #ffffff;
@@ -174,9 +197,64 @@
   align-items: center;
   height: 100vh;
 }
-.manu_links{
-  background-color: #405189;
-  display: flex;
+
+ 
   
   
-}
+
+
+  
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+  
+
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+   
+   
+
+
+
+
+
+
