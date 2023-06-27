@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     }
 
@@ -90,7 +91,7 @@ body
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content:space-around;
         padding-left: 200px;
         height: 80px;
         background: var(--azulM)
@@ -130,7 +131,7 @@ body
     }
 
     .formulario{
-        height: 250px;
+        height: 300px;
         width: 50%;
         border-radius: 10px;
         border-width: 5px 1px;
@@ -138,6 +139,7 @@ body
         border-style: solid;
         display: flex;
         flex-direction: column;
+
 
     }
 
@@ -167,10 +169,22 @@ body
 
     }
 
+ 
+
+    .continue-button{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px;
+       
+    }
+
+
     .continue-button button{
         padding: 5px;
         color: white;
-        background-color: red;
+        background-color: #0073EA;
+        border-radius: 4px;
+ 
 
     }
     
