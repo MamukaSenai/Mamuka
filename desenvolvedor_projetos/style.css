@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Core Sans G";
-    src: url(fonts\Core Sans G\CoreSansG-Regular.ttf);
+    src: url(../fonts/CoreSansG-Regular.ttf);
 }
 
 *{
@@ -27,7 +27,9 @@ body {
     --cinza: #2C2E3E;
     --cinzaclaro: #7C7C7C;
     
-
+    --vermelho: #F22D2D;
+    --laranja: #F9784F;
+    --verde: #26CB7B;
 }
 
 .superior {
@@ -127,7 +129,12 @@ main {
     
 }
 
+.link {
+    margin: 5px 0 0 20px ;
+    color: var(--cinzaclaroS);
+}
 
+/*
 
 .right {
     display: flex;
@@ -137,7 +144,7 @@ main {
     align-items: center;
     font-family: var(--fonte1);
     color: var(--branco);
-}
+} 
 
 .link {
     height: 100vh;
@@ -148,3 +155,92 @@ main {
     display: flex;
     
 }
+*/
+
+table {
+    border-collapse: collapse;
+    border-radius: 20px 20px 20px 20px  ; /* para borda com o hidden*/
+    overflow: hidden;
+    
+}
+
+.header_fixed {
+    height:  100%;
+    overflow: auto;
+    margin-top:  30px;
+    
+}
+
+.header_fixed thead th{
+    position: sticky;
+    top: 0;
+    background-color:var(--azulClaro);
+    color: var(--branco);
+    font-size: 15px;
+    font-weight: 800;
+}
+
+th,td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 14px;
+    
+}
+
+
+tr:nth-child(even){
+    background-color: #dddd;
+}
+
+tr:nth-child(odd){
+    background-color: #edeef1;
+}
+
+tr:hover td {
+    color: var(--azulescuro);
+    cursor: pointer;
+    background-color:  #fff;
+}
+
+td button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: var(--azulClaro);
+    color: #e6e7eb;
+    font-weight: bold;
+}
+
+
+/*
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+::-webkit-scrollbar-track{
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,3)
+}
+
+::-webkit-scrollbar-thumb{
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,3)
+} */
+
+.concluido {
+    color: var(--branco);
+    background-color: var(--verde);
+    font-weight: bold;
+}
+
+.andamento {
+    color: var(--branco);
+    background-color: var(--laranja);
+    font-weight: bold;
+  }
+
+.cancelado {
+    color: var(--branco);
+    background-color: var(--vermelho);
+    font-weight: bold;
+} 
+
+
