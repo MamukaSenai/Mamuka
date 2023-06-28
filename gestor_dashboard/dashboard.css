@@ -1,9 +1,15 @@
+@font-face {
+    font-family: "Core Sans G";
+    src: url(fonts\CoreSansG\CoreSansG-Regular.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
     resize: none;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
@@ -17,7 +23,7 @@
     --cinza: #2C2E3E;
     --cinzaclaro: #7C7C7C;
     --fonte1: 'Raleway', sans-serif;
-
+    --fonte2: "Core Sans G";
 
 }
 
@@ -31,12 +37,10 @@
 .topo {
     background-color: var(--azulescuro);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 120px;
-    position: fixed;
-    z-index: 0;
 }
 
 .logo {
@@ -52,8 +56,7 @@
     height: 100vh;
     text-align: center;
     width: 10%;
-    position: fixed;
-    z-index: 1;
+
 }
 
 .menu p {
@@ -62,7 +65,7 @@
 
 .geralmenus {
     display: flex;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--fonte1);
     font-weight: 700;
 }
 
@@ -76,6 +79,7 @@
     display: flex;
     align-items: center;
     padding: 10px;
+    padding-right: 100px;
     color: var(--branco);
 
 }
@@ -109,12 +113,13 @@
     justify-content: center;
     align-items: center;
     font-family: var(--fonte1);
+    /* font-family: "Core Sans G"; */
     color: var(--branco);
     margin-top: 10%;
 }
 
 .painel {
-    width: 100%;
+    width: 80vw;
     height: 20vh;
     text-align: center;
 }
@@ -151,11 +156,12 @@
     border-left: 1px solid #000000;
     border-bottom: 1px solid #000000;
     margin: 10px;
-    height: 200px;
-    width: 30%;
+    height: 220px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .grafico {
@@ -164,6 +170,11 @@
     width: 50%;
     margin-top: 30px;
     height: 350px;
+    padding-left: 20px;
+}
+
+.grafico p {
+    padding: 20px;
 }
 
 .aqua {
@@ -195,36 +206,10 @@
 .numeros{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+    height: 10px;
 }
-
-  .progress-title{
-      font-size: 16px;
-      font-weight: 700;
-      margin-bottom: 16px;
-      color: var(--cinzaclaro);
-  }
-  
-  .progress{
-      margin-bottom: 5%;
-  }
-  
-  .progress .progress-bar{
-      position: relative;
-      height: 30px;
-  }
-
-  /* .progress-bar {
-    background: var(--azulClaro);
-  } */
-  
-  .progress .progress-value{
-      font-size: 15px;
-      font-weight: bold;
-      color: var(--cinzaclaro);
-      position: absolute;
-      top: -18px;
-      right: 0;
-  }
 
   .bruno {
     width: 50%;
@@ -259,4 +244,39 @@
 
 .pizza {
     color: var(--cinzaclaro);
+}
+
+.pizza p {
+    text-align: center;
+    padding: 20px;
+}
+.cont {
+    display: flex;
+}
+
+
+
+@media screen and (min-width: 1000px ) {
+ .geralconteudo {
+    margin-top: 200px;
+ }
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+  .ricardo {
+    padding-right: 150px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+    .geralconteudo {
+        width: calc(100vw - -100px);    
+    }
+
+    .dashboard .grafico {
+        width: 39vw;
+    }
 }
