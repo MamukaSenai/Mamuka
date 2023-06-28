@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;  
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+
+}
+
+
+aside {
+    display: flex;
+    height: 100vh;
+    width: 5vw;
+    
+}
+
+.menu {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:blue;
+    color: #fff;
+    fill: #fff;
+} 
+
+.right {
+
+    display: flex;
+    flex-direction:column-reverse;
+    height: 100vh;
+    width: 90vw;
+    background-color: thistle;
+}
+
+.topo {
+    height: 10vh;
+    width: 95vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:cadetblue;
+
+    align-items: center;
+}
+
+
+.logo img {
+    width: 180px;
+    padding: 15px;
+} 
+
+
+.ricardo {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    height: 90vh;
+    width: 100vw;  
+    display: flex;
+    background-color: tomato;
+}
+
+
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    border-radius: 20px 20px 20px 20px  ; /* para borda com o hidden*/
+    overflow: hidden;
+    
+}
+
+.header_fixed {
+    height:  100%;
+    overflow: auto;
+    margin-top:  30px;
+    
+}
+
+.header_fixed thead th{
+    position: sticky;
+    top: 0;
+    background-color:var(--azulClaro);
+    color: var(--branco);
+    font-size: 15px;
+    font-weight: 800;
+}
+
+th,td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 14px;
+    
+}
+
+
+tr:nth-child(even){
+    background-color: #dddd;
+}
+
+tr:nth-child(odd){
+    background-color: #edeef1;
+}
+
+tr:hover td {
+    color: var(--azulescuro);
+    cursor: pointer;
+    background-color:  #fff;
+}
+
+td button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: var(--azulClaro);
+    color: #e6e7eb;
+    font-weight: bold;
+}
+
+
+/*
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+::-webkit-scrollbar-track{
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,3)
+}
+
+::-webkit-scrollbar-thumb{
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,3)
+} */
+
+.concluido {
+    color: var(--branco);
+    background-color: var(--verde);
+    font-weight: bold;
+}
+
+.andamento {
+    color: var(--branco);
+    background-color: var(--laranja);
+    font-weight: bold;
+  }
+
+.cancelado {
+    color: var(--branco);
+    background-color: var(--vermelho);
+    font-weight: bold;
+} 
