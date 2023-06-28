@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
     }
 
 
@@ -12,7 +13,9 @@
     --azulM: #405189;
     --azulE: #2C2E3E;
     --branco: #FFFFFF;
-    --preto: #0000;
+    --preto: #000000;
+    --verde: #07f60b;
+
 
     --font1: 'Titillium Web', sans-serif;
     --font2: 'Righteous', cursive;
@@ -21,7 +24,8 @@
 main
     { 
     /* padding limita a area de trabalho da tela main  */
-    padding: 10px 10px 10px 220px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 220px;
     /* background: var(--azulC); */
     }
 
@@ -32,7 +36,7 @@ body
         position: relative;
         min-height: 100vh;
         width: 100%;
-        overflow: hidden;   
+        /* overflow: hidden;    */
     }
 
     
@@ -106,9 +110,6 @@ body
         width:260px;
     }
 
-
-
-
 .label-input 
     {
     display: flex;
@@ -136,7 +137,79 @@ body
 
 
   
-	table, th, td {
-		border: 0px solid black;
+	table 
+    {
+		border: 1px solid black;
+        border-radius: 40px;
+        border-spacing: 0;
 	}
    
+    th, td
+    {
+        text-transform: capitalize;
+        padding: 10px;
+        text-align: left;
+        width: 150px;
+        height: 30px;
+        border: 1px solid var(--preto);
+        border-left: none;
+        border-bottom: none;
+    }
+
+    th 
+    {
+        border-top: none;
+    }
+
+    th:first-child 
+    {
+        border-left: none;  
+        width: 50px;
+        height: 30px;  
+        padding: 25px;   
+    }
+
+    th:last-child 
+    {
+        border-right: none;       
+    }
+
+    td:first-child 
+    {
+        border-left: none;  
+        width: 50px;
+        height: 30px;  
+        padding: 25px;   
+    }
+
+    td:last-child 
+    {
+        border-right: none;
+        width: 50px;
+        height: 30px;
+    }
+
+.filho1{
+    display: none; 
+}
+
+/* @media button  */
+
+  .pai1:hover + .filho1
+    {
+        display: table-row;
+       /* display: inline-block;  */
+       /* display: none;  */
+    }  
+  
+.cor_seta
+    {
+        fill: var(--verde);
+        width: 40px;
+        height: 40px;
+    }
+
+.cor_quadrado
+    {
+        fill: var(--verde);
+    }
