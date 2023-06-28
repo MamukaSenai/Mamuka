@@ -9,6 +9,7 @@
     <!-- link para carregar os icones -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+  
 </head>
 
 <body>
@@ -19,8 +20,13 @@
         <div class="menu_sup">
             <img src="../img/Logo.png" alt="">
             <form>
-                <input class="barra_pesquisa" type="search" name="Pesquisa" id="campo_pesquisa">
+
+                <img class="lupa" src="./file/lupa.png" alt="">
+                <input class="barra_pesquisa" type="search" name="Pesquisa" id="campo_pesquisa" placeholder="Pesquisa"> 
+            
+                
             </form>
+
             <img src="../img/Ricardo.png" alt="">
         </div>
 
@@ -81,61 +87,55 @@
                             required>
                     </div>
 
-                    <!-- <div class="linha1"> -->
-                        <div>
-                            <div class="input-box">
-                                <label for="Status">Status:</label>
-                                <input type="text" name="Status" placeholder="Inicial"
-                                    required>
-                            </div>
-        
+                    <div class="linha1"> 
+
                             <div class="input-box">
                                 <label for="ID_do_projeto">ID do projeto:</label>
                                 <input type="password" name="ID_do_projeto" placeholder="100/23"
                                     required>
                             </div>
+        
                             
-                        </div>
-                    
-                        <div>
                             <div class="input-box">
-                                <label for="Grupo">Grupo:</label>
-                                <input type="text" name="Grupo" placeholder="Fase 1" required>
+                                <label for="Status:">Status:</label>
+                                <input type="text" name="Status:" placeholder="Inicial" required>
+                            </div>
+        
+        
+                            <div class="input-box">
+                                <label for="Responsáveis">Fase:</label>
+                                <input type="text" name="Fase:" placeholder="Fase 1" required>
+                                
                             </div>
 
-                            <div class="input-box">
-                                <label for="Inicio">Inicio:</label>
-                                <input type="date" name="Inicio" placeholder="12/04/2023" required>
-                            </div>
-
                         </div>
-                    
 
-                </div>
 
                 <div class="linha2">
-
-
-                    <div class="input-box">
-                        <label for="Conclusão">Conclusão:</label>
-                        <input type="date" name="Conclusão" placeholder="28/11/2023" required>
-                    </div>
-
                     
                     <div class="input-box">
                         <label for="Gestor_do_projeto">Gestor do projeto:</label>
                         <input type="text" name="Gestor do projeto" placeholder="Ricardo Souza" required>
                     </div>
 
+                    <div class="input-box">
+                        <label for="Conclusão">Inicio:</label>
+                        <input type="date" name="Inicio:" placeholder="28/11/2023" required>
                     </div>
 
+                    <div class="input-box">
+                        <label for="Conclusão">Conclusão:</label>
+                        <input type="date" name="Conclusão" placeholder="28/11/2023" required>
+                    </div>
+
+                
+                </div>
 
                     <div class="input-box">
                         <label for="Responsáveis">Responsáveis:</label>
-                        <input type="text" name="Responsáveis" placeholder="Nicolas de Oliveira e Trellini" required>
+                        <textarea name="text" name="Responsáveis" cols="20" rows="8" placeholder="Nicolas de Oliveira e Trellini" required></textarea>
                         
                     </div>
-
 
                 <div class="continue-button">
                     <button>Criar</button>
