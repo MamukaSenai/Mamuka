@@ -9,6 +9,7 @@
     border: 0;
     box-sizing: border-box;
     resize: none;
+    font-family: sans-serif;
     
 }
 
@@ -65,7 +66,7 @@
 
 .geralmenus {
     display: flex;
-    font-family: var(--fonte1);
+    /* font-family: var(--fonte1); */
     font-weight: 700;
 }
 
@@ -112,8 +113,7 @@
     width: calc(100vw - -100px);
     justify-content: center;
     align-items: center;
-    font-family: var(--fonte1);
-    /* font-family: "Core Sans G"; */
+    /* font-family: var(--fonte1); */
     color: var(--branco);
     margin-top: 10%;
 }
