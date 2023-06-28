@@ -250,6 +250,19 @@
     text-align: center;
     padding: 20px;
 }
+
+.circulo {
+    margin: 20px;
+    margin-left: 40px;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    /* background-color: #DF590D; */
+    /* background: conic-gradient(
+        from 0deg, #FFCB00 120deg, #00CA72 220deg, #DBDBDB 350deg, #E44358 15deg,
+    )  */
+    background-image: conic-gradient(#FFCB00 120deg , #00CA72 270deg, #DBDBDB 320deg, #E44358 15deg);
+}
 .cont {
     display: flex;
 }
