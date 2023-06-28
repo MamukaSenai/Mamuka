@@ -242,15 +242,19 @@
     display: flex;
   }
 
-.pizza {
+.pizzageral {
     color: var(--cinzaclaro);
 }
 
-.pizza p {
+.pizzageral p {
     text-align: center;
     padding: 20px;
 }
 
+.pizzacont{
+    display: flex;
+    align-items: center;
+}
 .circulo {
     margin: 20px;
     margin-left: 40px;
@@ -261,13 +265,41 @@
     /* background: conic-gradient(
         from 0deg, #FFCB00 120deg, #00CA72 220deg, #DBDBDB 350deg, #E44358 15deg,
     )  */
-    background-image: conic-gradient(#FFCB00 120deg , #00CA72 270deg, #DBDBDB 320deg, #E44358 15deg);
+    /* background-image: conic-gradient(#FFCB00 70deg , #00CA72 50deg, #DBDBDB 320deg, #E44358 15deg); */
+    background-image: conic-gradient(#FFCB00 90deg, #00CA72 0deg, #00CA72 180deg, #DBDBDB 180deg,  #DBDBDB 270deg, #DBDBDB 320deg, #FFCB00 320deg, #E44358 250deg);
 }
 .cont {
     display: flex;
 }
 
+.lista {
+    list-style: none;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 50%; */
 
+}
+
+.quad {
+    /* display: inline-block; */
+    display: inline-flex;
+    /* align-items: center; */
+    background: #DBDBDB;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.textos {
+    padding-left: 50px;
+}
+.lista {
+    margin-bottom: 5px;
+    text-align: right;
+}
 
 @media screen and (min-width: 1000px ) {
  .geralconteudo {
