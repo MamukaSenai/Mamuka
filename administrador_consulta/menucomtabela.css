@@ -58,11 +58,11 @@ aside {
 }
 
 .menu p {
-    padding-top: 30px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-top: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
     font-weight: 800;
-    font-size:large;
+    
 }
 
 .right {
@@ -71,7 +71,7 @@ aside {
     flex-direction:column-reverse;
     height: 100vh;
     width: 83.8vw;
-    background-color: thistle;
+    
 }
 
 .topo {
@@ -114,6 +114,10 @@ aside {
 }
 */
 
+.pesquisa {
+    color: var(--cinzaclaro);
+}
+
 .pesquisa svg {
     
     position: absolute;
@@ -127,6 +131,8 @@ aside {
     height: 30px;
     border-radius: 10px;
     padding-left: 40px;
+    border: none;
+    
 }
 
 .ricardo {
@@ -150,15 +156,22 @@ aside {
 
 }
 
-.main {
+main {
     height: 88vh;
     width: 100vw;  
     display: flex;
-    background-color: tomato;
+    justify-content: center;
+    background-color: #fff;
 }
 
+.link {
+    color: var(--cinzaclaro);
+    padding-top: 1%;
+}
 
-
+section {
+    padding-top: 3%;
+}
 
 
 
@@ -174,6 +187,7 @@ table {
     height:  100%;
     overflow: auto;
     margin-top:  30px;
+    
     
 }
 
