@@ -9,6 +9,7 @@
     border: 0;
     box-sizing: border-box;
     resize: none;
+    /* font-family: "Core Sans G"; */
     font-family: sans-serif;
     
 }
@@ -35,19 +36,19 @@
     border-right: 10px solid var(--azulClaro);
 }
 
-.topo {
+/* .topo {
     background-color: var(--azulescuro);
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 120px;
-}
-
+} */
+/* 
 .logo {
     padding-left: 220px;
-}
-
+} */
+/* 
 .menu {
     background-color: var(--cinza);
     display: flex;
@@ -58,11 +59,11 @@
     text-align: center;
     width: 10%;
 
-}
-
+} */
+/* 
 .menu p {
     padding-top: 30px;
-}
+} */
 
 .geralmenus {
     display: flex;
@@ -76,14 +77,14 @@
     cursor: pointer;
 }
 
-.ricardo {
+/* .ricardo {
     display: flex;
     align-items: center;
     padding: 10px;
     padding-right: 100px;
     color: var(--branco);
 
-}
+} */
 
 #seta {
     padding-left: 10px;
@@ -102,11 +103,11 @@
     position: absolute;
     color: var(--cinzaclaro);
 }
-
+/* 
 .pesquisa {
     display: flex;
     align-items: center;
-}
+} */
 
 .geralconteudo {
     display: flex;
@@ -115,13 +116,16 @@
     align-items: center;
     /* font-family: var(--fonte1); */
     color: var(--branco);
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    margin-bottom: 10%;
+    margin-right: 7%;
 }
 
 .painel {
     width: 80vw;
     height: 20vh;
     text-align: center;
+
 }
 
 .total {
@@ -301,14 +305,138 @@
     text-align: right;
 }
 
+/* ------------------------------------------------------------------------------- */
+/* teste */
+
+body {
+    width: 100vw;  
+    height: 100vh;
+    display: flex;
+    font-family: var(--font);
+    overflow-x: hidden; 
+    overflow-y: hidden;
+
+}
+
+
+aside {
+    display: flex;
+    height: 100vh;
+    width: 6.5vw;
+    
+}
+
+.menu {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cinza);
+    color: #fff;
+    fill: #fff;
+    text-align: center;
+} 
+
+.menu svg{
+    height: 5vh;
+    width: 5vw;
+    margin-top: 15px;
+}
+
+.menu p {
+    padding-top: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 800;
+    
+}
+
+.right {
+
+    display: flex;
+    flex-direction:column-reverse;  
+    /* height: 100vh;
+    width: 83.8vw; */
+    
+}
+
+.topo {
+    height: 12vh;
+    width: 93.5vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--azulescuro);
+
+    align-items: center;
+}
+
+
+
+.logo img {
+    width: 180px;
+    padding: 15px;
+} 
+
+.pesquisa {
+    color: var(--cinzaclaro);
+}
+
+.pesquisa svg {
+    
+    position: absolute;
+    color: var(--cinza);
+    margin-left: 7px;
+    margin-top: 7px;
+    fill: var(--cinzaclaro);
+}
+.campotexto{
+    width: 25vw;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 40px;
+    border: none;
+    
+}
+
+.ricardo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: var(--branco);
+    fill: var(--branco);
+}
+
+.ricardo img {
+    padding: 10px;
+}
+
+
+
+.ricardo p {
+    padding-right: 9px;
+    font-weight: 600;
+    
+
+}
+
+main {
+    height: 88vh;
+    width: 100vw;  
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+/* ------------------------------------------------------------------------------- */
+
 @media screen and (min-width: 1000px ) {
  .geralconteudo {
     margin-top: 200px;
  }
 }
-
-
-
 
 @media screen and (max-width: 1500px) {
   .ricardo {

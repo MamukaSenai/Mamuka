@@ -13,7 +13,24 @@
 </head>
 
 <body>
-    <header>
+    <!-- ------------------------------------------------------------------------------ -->
+    <!-- TESTES MENU -->
+    <aside>
+        <nav class="menu">
+            <i><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                </svg></i>
+            <p>Projetos</p>
+            <p>Criar Projetos</p>
+            <p>Criar Demandas</p>
+            <!--  <a href="#">Consulta</a>  <button><a href="#">Consulta</a></button> -->
+        </nav>
+    </aside>
+    <!-- ------------------------------------------------------------------------------ -->
+
+    <!-- <header>
         <section class="geralmenus">
             <nav class="topo">
                 <div class="logo">
@@ -30,98 +47,125 @@
                 </div>
             </nav>
         </section>
-    </header>
-    <aside class="menu">
-        <div><i class="fa-solid fa-bars" id="hamb"></i></div>
-        <p>Projetos</p>
-        <p>Criar Projetos</p>
-        <p>Criar Demandas</p>
-    </aside>
-    <main>
-        
-        <section class="geralconteudo">
-            <!-- <aside class="menu">
+    </header> -->
+    <div class="right">
+        <main>
+            <!-- Testando sem colocar a class geralconteudo -->
+            <section class="geralconteudo right">
+                <!-- <aside class="menu">
                 <div><i class="fa-solid fa-bars" id="hamb"></i></div>
                 <p>Projetos</p>
                 <p>Criar Projetos</p>
                 <p>Criar Demandas</p>
-            </aside> -->
-            <div class="alinhamento">
-                <div class="painel configconteudo">
-                    <p class="titulo">Painel de Gerenciamento de Projetos</p>
-                    <div class="dados">
+                </aside> -->
+                <div class="alinhamento">
+                    <div class="painel configconteudo">
+                        <p class="titulo">Painel de Gerenciamento de Projetos</p>
+                        <div class="dados">
 
-                        <div class="total">
-                            <p>Total</p>
-                            <p class="valores">66</p>
+                            <div class="total">
+                                <p>Total</p>
+                                <p class="valores">66</p>
+                            </div>
+                            <div class="total">
+                                <p>Concluídos</p>
+                                <p class="valores">10</p>
+                            </div>
+                            <div class="total">
+                                <p>Em andamento</p>
+                                <p class="valores">43</p>
+                            </div>
+                            <div class="total">
+                                <p>Não alocado</p>
+                                <p class="valores">13</p>
+                            </div>
                         </div>
-                        <div class="total">
-                            <p>Concluídos</p>
-                            <p class="valores">10</p>
+                    </div>
+                    <div class="bottomcont">
+                        <div class="grafico configconteudo">
+                            <p>Projetos por Desenvolvedor</p>
+                            <div class="cont">
+                                <div class="pessoas">
+                                    <p>Bruno Peripato</p>
+                                    <p>Luciano Franca</p>
+                                    <p>Claudio Trellini</p>
+                                    <p>Nicolas de Oliveira</p>
+                                </div>
+                                <div class="xy">
+                                    <div class="aqua">
+                                    </div>
+                                    <div class="azul">
+                                    </div>
+                                    <div class="violeta">
+                                    </div>
+                                    <div class="laranja">
+                                    </div>
+                                    <div class="numeros">
+                                        <p>0</p>
+                                        <p>10</p>
+                                        <p>20</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
-                        <div class="total">
-                            <p>Em andamento</p>
-                            <p class="valores">43</p>
-                        </div>
-                        <div class="total">
-                            <p>Não alocado</p>
-                            <p class="valores">13</p>
+                        <div class="dashboard configconteudo">
+                            <div class="pizzageral">
+                                <p> Status do Projeto</p>
+                                <div class="pizzacont">
+                                    <div class="circulo">
+                                    </div>
+                                    <div class="textos">
+                                        <ul class="lista">
+                                            <li>Não alocados<span class="quad"
+                                                    style="background-color: #DBDBDB;"></span></li>
+                                            <li>Concluídos<span class="quad" style="background-color: #00CA72;"></span>
+                                            </li>
+                                            <li>Em andamento<span class="quad"
+                                                    style="background-color: #FFCB00;"></span></li>
+                                            <li>Cancelado<span class="quad" style="background-color: #E44358;"></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="bottomcont">
-                    <div class="grafico configconteudo">
-                        <p>Projetos por Desenvolvedor</p>
-                        <div class="cont">
-                            <div class="pessoas">
-                                <p>Bruno Peripato</p>
-                                <p>Luciano Franca</p>
-                                <p>Claudio Trellini</p>
-                                <p>Nicolas de Oliveira</p>
-                            </div>
-                            <div class="xy">
-                                <div class="aqua">
-                                </div>
-                                <div class="azul">
-                                </div>
-                                <div class="violeta">
-                                </div>
-                                <div class="laranja">
-                                </div>
-                                <div class="numeros">
-                                    <p>0</p>
-                                    <p>10</p>
-                                    <p>20</p>
-        
-                                </div>
-                            </div>
-                        </div>
-                       
-                    </div>
-                    <div class="dashboard configconteudo">
-                        <div class="pizzageral">
-                            <p> Status do Projeto</p>
-                            <div class="pizzacont">
-                            <div class="circulo">
-                            </div>
-                            <div class="textos">
-                                <ul class="lista">
-                                    <li>Não alocados<span class="quad" style="background-color: #DBDBDB;"></span></li>
-                                    <li>Concluídos<span class="quad" style="background-color: #00CA72;"></span></li>
-                                    <li>Em andamento<span class="quad" style="background-color: #FFCB00;"></span></li>
-                                    <li>Cancelado<span class="quad" style="background-color: #E44358;"></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
-        <!-- teste -->
+            </section>
 
-    </main>
+
+        </main>
+            <!-- ------------------------------------------------------------------------------ -->
+    <!-- TESTES MENU -->
+        <header class="topo">
+            <div class="logo">
+                <img src="../img/Logo.png" alt="logo">
+            </div>
+            <div class="pesquisa">
+
+                <!--<i class="fa-solid fa-magnifying-glass" id="lupa"></i>-->
+                <i><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                    </svg></i>
+                <input class="campotexto" type="text" placeholder="Pesquisa">
+            </div>
+            <div class="ricardo">
+                <img src="../img/Ricardo.png" alt="">
+                <p>Ricardo Souza</p>
+                <i><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                        viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z" />
+                    </svg></i>
+        </header>
+
+    </div>
+        <!-- ------------------------------------------------------------------------------ -->
+    <!-- TESTES MENU -->
 </body>
 
 </html>
