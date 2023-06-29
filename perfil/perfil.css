@@ -25,4 +25,198 @@
     --fonte2: "Core Sans G";
 
 }
+/* menu */
 
+body {
+    width: 100vw;  
+    height: 100vh;
+    display: flex;
+    font-family: var(--font);
+    overflow-x: hidden; 
+    overflow-y: hidden;
+
+}
+
+
+aside {
+    display: flex;
+    height: 100vh;
+    width: 6.5vw;
+    
+}
+
+.menu {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cinza);
+    color: #fff;
+    fill: #fff;
+} 
+
+.menu svg{
+    height: 5vh;
+    width: 5vw;
+    margin-top: 15px;
+}
+
+.menu p {
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 800;
+    font-size:large;
+}
+
+.right {
+
+    display: flex;
+    flex-direction:column-reverse;
+    height: 100vh;
+    width: 83.8vw;
+    background-color: thistle;
+}
+
+.topo {
+    height: 12vh;
+    width: 93.5vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--azulescuro);
+
+    align-items: center;
+}
+
+
+
+.logo img {
+    width: 180px;
+    padding: 15px;
+} 
+
+/*
+.campotexto{
+    width: 25vw;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+#lupa {
+    padding: 10px;
+    position: absolute;
+    color: var(--cinza);
+    
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+}
+*/
+
+.pesquisa svg {
+    
+    position: absolute;
+    color: var(--cinza);
+    margin-left: 7px;
+    margin-top: 7px;
+    fill: var(--cinzaclaro);
+}
+.campotexto{
+    width: 25vw;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+.ricardo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: var(--branco);
+    fill: var(--branco);
+}
+
+.ricardo img {
+    padding: 10px;
+}
+
+
+
+.ricardo p {
+    padding-right: 9px;
+    font-weight: 600;
+    
+
+}
+
+.main {
+    height: 88vh;
+    width: 100vw;  
+    display: flex;
+    background-color: tomato;
+}
+
+
+/* menu */
+
+
+.sinalizacao {
+    color: var(--cinzaclaro);
+}
+.configconteudo {
+    border: 1px solid var(--cinzaclaro);
+    border-radius: 5px;
+    border-top: 10px solid var(--azulClaro);
+    border-bottom: 10px solid var(--azulClaro);
+}
+
+.input_style input {
+    border: 1px solid var(--cinzaclaro);
+    border-radius: 10px;
+    height: 3.5vh;
+    color: var(--cinzaclaro);
+}
+
+.input1, .input2, .input3, .input4, .input5 {
+    color: var(--cinzaclaro);
+}
+
+.conteudo_topo {
+    display: flex;
+    align-items: center;
+}
+
+.input1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.s1 {
+    padding-bottom: 20px;
+    width: 50vw;
+    display: flex;
+}
+
+.s2 {
+    width: 50vw;
+    display: flex;
+}
+.conteudo_topo img {
+    padding: 20px 50px;
+}
+
+#name {
+    width: 80%;
+
+}
+
+#email {
+    width: 80%;
+    
+}
