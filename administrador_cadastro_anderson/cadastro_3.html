@@ -16,18 +16,22 @@
     <header> 
     
 
-                 <div class="menu_sup">
+                <div class="menu_sup">
                     <div>
                         <img src="../img/Logo.png" alt=""> 
                     </div>
                     
                     <div id="divBusca">
+                        <!-- <input class="pesquisa" type="text"> -->
                         <input type="text" id="txtBusca" placeholder="Buscar..."/>
-                        <img src="search3.png" id="btnBusca" alt="Buscar"/>
+                        <!-- <img src="search3.png" id="btnBusca" alt="Buscar"/> -->
                     </div>    
 
-                    <div>
+                    <div class="usuario">
                         <img src="../img/Ricardo.png" alt="">
+                        <p>ricardo souza  </p>
+                        <img src="../img/Polygon 3.png" alt="">
+                        <!-- <i class="cor_seta"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 256 512">! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.<path d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/></svg></i>   -->
                     </div>
                 </div>      
     </header>
@@ -73,8 +77,28 @@
     <!-- corpo da pagina-->
     <main>
         
-        <form>
-                <div>
+        <form class="formulario">
+
+
+            <!-- <img class="bonequinho" src="../img/PessoaCadastro.png" alt="">
+            <p class="sabao">perfil</p>
+            <input class="perfil" type="text">
+            <p class="sabao"> cargo</p>
+            <input class="perfil" type="text">
+            <p class="sabao">numero do usuario</p>
+            <input class="perfil" type="text">
+
+
+
+
+
+            <div class="botao">
+                <a class="salvar" href="#">salvar</a>
+            </div> -->
+
+
+            
+                 <div>
                     <label for="campo-usuario">administrador / cadastro:</label>             
                     <div class="item">pessoal</div>
                     <div class="item">corporativo</div>
@@ -90,26 +114,26 @@
                 </div>
                 
                 <div class="label-input">
-                    <label for="campo-usuario">Email:</label>
+                    <label for="campo-usuario">email:</label>
                     <input placeholder="ricardosouza1980@gmail.com" name="usuario" id="campo-usuario">  
                 </div>
 
 
                 <div class="label-input">
-                    <label pfor="campo-senha">Email:</label>
-                    <input placeholder="ricardosouza1980@gmail.com" name="senha" id="campo-senha">
+                    <label for="campo-senha">confirme o email:</label>
+                    <input placeholder="ricardosouza1980@gmail.com" name="usuario" id="campo-usuario">
                 </div>
 
                 <div>
                     <button type="submit">salvar</button> 
-                </div>        
+                </div>         
         </form>  
    
 
         <table>
             <thead>
                 <tr>
-                    <th><button><img src="../img/Polygon 3.png" alt=""></button></th>
+                    <th><img src="../img/Polygon 3.png" alt=""></th>
                     <th>id</th>
                     <th>grupo</th>
                     <th>nome</th>
@@ -120,7 +144,7 @@
             </thead>
             <tbody>
                 <tr class="pai1">
-                    <td class="cor_quadrado"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/></svg></td>
+                    <td class="cor_seta"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/></svg></td>
                     <td>100/23</td>
                     <td>sao caetano 1.34</td>
                     <td>laboratorio 1</td>
@@ -130,7 +154,7 @@
  
                     <tr class="filho1">
                         <td></td>
-                        <td class="cor_seta"><i><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"/></svg></i></td>
+                        <td class="quadrado_vd"><i><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"/></svg></i></td>
                         <td>teste</td>
                         <td>teste</td>
                         <td>teste</td>
@@ -139,18 +163,18 @@
                     </tr>
                      <tr class="filho1" > 
                         <td></td>
-                        <td><button><img src="../img/Polygon 3.png" alt=""></button></td>
+                        <td class="quadrado_vm"><i><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"/></svg></i></td>
                         <td>teste</td>
                         <td>teste</td>
                         <td>teste</td>
                         <td>teste</td>
-                        <td>teste</td>z
-                    </tr>    -->
+                        <td>teste</td>
+                    </tr>    
  
                 </tr>
  
                 <tr>
-                    <td><button><img src="../img/Polygon 3.png" alt=""></button></td>
+                    <td><img src="../img/Polygon 3.png" alt=""></td>
                     <td>101/22</td>
                     <td>vila mariana 1.09</td>
                     <td>laboratorio 2</td>
@@ -160,7 +184,7 @@
                 </tr>
 
                 <tr>
-                    <td><button><img src="../img/Polygon 3.png" alt=""></button></td>
+                    <td><img src="../img/Polygon 3.png" alt=""></td>
                     <td>102/21</td>
                     <td>bras 1.01</td>
                     <td>oficina 1</td>
@@ -170,7 +194,7 @@
                 </tr>
 
                 <tr>
-                    <td><button><img src="../img/Polygon 3.png" alt=""></button></td>
+                    <td><img src="../img/Polygon 3.png" alt=""></td>
                     <td>103/23</td>
                     <td>vila alpina 1.02</td>
                     <td>biblioteca</td>
@@ -180,7 +204,7 @@
                 </tr>               
  
                 <tr>
-                    <td><button><img src="../img/Polygon 3.png" alt=""></button></td>
+                    <td><img src="../img/Polygon 3.png" alt=""></td>
                     <td>104/22</td>
                     <td>sao bernardo 1.20</td>
                     <td>secretaria</td>
@@ -190,7 +214,7 @@
                 </tr>     
  
                 <tr>
-                    <td><button><img src="../img/Polygon 3.png" alt=""></button></td>
+                    <td><img src="../img/Polygon 3.png" alt=""></td>
                     <td>105/23</td>
                     <td>santo  andre 1.18</td>
                     <td>processo seletivo 1</td>
@@ -200,7 +224,7 @@
                 </tr>  
   
                 <tr>
-                    <td><button><img src="../img/Polygon 3.png" alt=""></button></td>
+                    <td><img src="../img/Polygon 3.png" alt=""></td>
                     <td>106/20</td>
                     <td>diadema 1.25</td>
                     <td>grade curricular 2</td>
