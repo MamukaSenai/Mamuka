@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
@@ -11,14 +11,14 @@
 
 
 
-:root{
+:root {
     --azulescuro: #405189;
     --branco: #ffffff;
     --azulClaro: #0073EA;
     --cinza: #2C2E3E;
     --cinzaclaro: #7C7C7C;
     --fonte1: 'Raleway', sans-serif;
-    
+
 
 }
 
@@ -40,13 +40,13 @@
     height: 100vh;
     text-align: center;
     width: 10%;
-    z-index: 3;
- }
+    z-index: 0;
+}
 
 .menu p {
     padding-top: 30px;
 
-} 
+}
 
 .geralmenus {
     display: flex;
@@ -61,23 +61,26 @@
 }
 
 .ricardo {
+    background-color: var(--azulescuro);
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    color: var(--branco);
-
+    width: 100%;
+    height: 80px;
 }
+
 
 #seta {
     padding-left: 10px;
     cursor: pointer;
 }
 
-.campotexto{
+.campotexto {
     width: 300px;
     height: 30px;
     border-radius: 10px;
     padding-left: 40px;
+
 }
 
 #lupa {
@@ -100,29 +103,57 @@
     color: var(--branco);
 }
 
-
-.login {
+main {
+    width: calc(100vw - 155px);
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.posicao-main {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.cadastro,
+.consulta {
+    width: 40%;
+    display: flex;
+    align-items: center;
     flex-direction: column;
-    width: 50%;
-
-
 
 
 }
 
-.painel {
+
+.button {
+    background-color: var(--azulescuro);
+    margin: 50px auto;
+    border-radius: 10px;
+    font-family: Core Sans G, sans-serif;
+    height: 3vh;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
     display: flex;
-    flex-direction: column;
-    width: 50%;
-
-
+    align-items: center;
 
 }
 
-.cadastro {
-    display: flex;
-    
-
-
-}
