@@ -87,7 +87,7 @@ body
     /* logo mamuka */
     .menu_sup img{
         width: 150px;
-        padding: 20pix;
+        padding: 20px;
 
     }
 
@@ -157,7 +157,6 @@ body
         padding-top: 5%;
         padding-left: 5%;
         padding-right: 5%;
-      
        
     }
 
@@ -170,11 +169,15 @@ body
 
     .input-box > input {
         border-radius: 3px;
+        /* border-color:#7C7C7C; */
+        border: 1px solid  #7c7c7c;
 
     }
 
     .input-box > textarea{
         border-radius: 5px;
+        border-color:#7C7C7C;
+      
     }
 
     .Gestor{
