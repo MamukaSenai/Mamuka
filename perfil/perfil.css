@@ -10,7 +10,7 @@
     box-sizing: border-box;
     resize: none;
     font-family: sans-serif;
-    
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
@@ -25,14 +25,15 @@
     --fonte2: "Core Sans G";
 
 }
+
 /* menu */
 
 body {
-    width: 100vw;  
+    width: 100vw;
     height: 100vh;
     display: flex;
     font-family: var(--font);
-    overflow-x: hidden; 
+    overflow-x: hidden;
     overflow-y: hidden;
 
 }
@@ -42,7 +43,7 @@ aside {
     display: flex;
     height: 100vh;
     width: 6.5vw;
-    
+
 }
 
 .menu {
@@ -54,9 +55,9 @@ aside {
     background-color: var(--cinza);
     color: #fff;
     fill: #fff;
-} 
+}
 
-.menu svg{
+.menu svg {
     height: 5vh;
     width: 5vw;
     margin-top: 15px;
@@ -67,22 +68,22 @@ aside {
     padding-right: 5%;
     padding-left: 5%;
     font-weight: 800;
-    font-size:large;
+    font-size: large;
 }
 
 .right {
 
     display: flex;
-    flex-direction:column-reverse;
+    flex-direction: column-reverse;
     height: 100vh;
     width: 83.8vw;
-    
+
 }
 
 .topo {
     height: 12vh;
     width: 93.5vw;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -96,17 +97,18 @@ aside {
 .logo img {
     width: 180px;
     padding: 15px;
-} 
+}
 
 .pesquisa svg {
-    
+
     position: absolute;
     color: var(--cinza);
     margin-left: 7px;
     margin-top: 7px;
     fill: var(--cinzaclaro);
 }
-.campotexto{
+
+.campotexto {
     width: 25vw;
     height: 30px;
     border-radius: 10px;
@@ -131,15 +133,15 @@ aside {
 .ricardo p {
     padding-right: 9px;
     font-weight: 600;
-    
+
 
 }
 
 main {
     height: 88vh;
-    width: 100vw;  
+    width: 100vw;
     display: flex;
-    
+
 }
 
 
@@ -150,9 +152,11 @@ main {
     margin-top: 5%;
     padding-right: 15px;
 }
+
 .sinalizacao {
     color: var(--cinzaclaro);
 }
+
 .configconteudo {
     border: 1px solid var(--cinzaclaro);
     border-radius: 5px;
@@ -167,7 +171,11 @@ main {
     color: var(--cinzaclaro);
 }
 
-.input1, .input2, .input3, .input4, .input5 {
+.input1,
+.input2,
+.input3,
+.input4,
+.input5 {
     color: var(--cinzaclaro);
 }
 
@@ -183,9 +191,10 @@ main {
     align-items: center;
 
 }
+
 .s1 {
     padding-bottom: 30px;
-   
+
 }
 
 .conteudo_topo img {
@@ -199,10 +208,12 @@ main {
 
 #email {
     width: 100%;
-    
+
 }
 
-.input3, .input4, .input5 {
+.input3,
+.input4,
+.input5 {
     padding-left: 50px;
     padding-bottom: 30px;
 }
@@ -211,4 +222,77 @@ main {
     width: 50vw;
     display: flex;
     flex-direction: column;
+}
+
+.att label {
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+
+.x1 {
+    width: 20vw;
+    padding-left: 30px;
+}
+
+.x2 {
+    width: 20vw;
+    padding-left: 30px;
+}
+
+.x2 #resp {
+    width: 38vw;
+}
+
+.x3 {
+    width: 50vw;
+    padding-left: 30px;
+
+}
+
+
+#pais,
+#cidade {
+    width: 18vw;
+}
+
+.pc {
+    padding-left: 30px;
+}
+
+.integ {
+    padding-left: 15px;
+}
+
+#perfil,
+#estado {
+    width: 14vw;
+}
+
+
+.x4local {
+    width: 50vw;
+    padding-right: 300px;
+}
+
+
+#name,
+#id,
+#email,
+#status,
+#cargo,
+#depart,
+#resp,
+#perfil,
+#datai,
+#pais,
+#cidade,
+#estado,
+#local {
+    padding: 10px;
+}
+
+
+.sinalizacao p {
+    padding-left: 20px;
+    padding-top: 20px;
 }
