@@ -141,11 +141,11 @@ body
     }
 
     .formulario{
-        height: 350px;
-        width: 42%;
+        height: 400px;
+        width: 700px;
         border-radius: 10px;
         border-width: 5px 1px;
-        border-color: #0073EA #7c7c7c;
+        border-color:#0073EA #7C7C7C;
         border-style: solid;
         display: flex;
         flex-direction: column;
@@ -153,10 +153,28 @@ body
 
     }
 
+    section {
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+      
+       
+    }
+
     .input-box{
         padding: 5px;
         display: flex;
         flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .input-box > input {
+        border-radius: 3px;
+
+    }
+
+    .input-box > textarea{
+        border-radius: 5px;
     }
 
     .Gestor{
@@ -183,17 +201,17 @@ body
         display: flex;
         justify-content: flex-end;
         padding-right: 10px;
-       
+        
     }
 
 
     .continue-button button{
-        padding: 5px;
+        margin-top: 2%;
+        padding: 2px 5px 2px 5px;
         color: white;
-        background-color: #0073EA;
+        background-color: #405189;
         border-radius: 4px;
- 
-
+        font-weight: bold;
     }
     
 
