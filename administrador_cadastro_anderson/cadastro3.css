@@ -54,12 +54,12 @@ body
 
     /* distancia dos menus lateral */
 .sidebar ul li
-{
+    {
     position: relative;
     height: 100px;
     width: 100%;
     list-style: none;
-}   
+    }   
 
     /* menu lateral */
 .link_name
@@ -68,6 +68,7 @@ body
         font: var(--font1);
         font-size: 23px;
         text-transform: capitalize;
+        color:var(--branco);
     }
 
     /* menu hamburge */
@@ -90,10 +91,57 @@ body
         justify-content: space-between;
         align-items: center;
         padding: 25px 300px;
-        background: var(--azulM)
-
-        
+        background: var(--azulM) 
     }
+
+.linha_sup_status
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        font-size: 20px;
+     }
+
+.destaque
+    {
+        background-color: var(--azulM);
+        display: flex;
+        border-radius: 7px;
+        color:var(--branco);
+    }
+
+
+
+.linha_sup_esq
+    {
+        text-transform: capitalize;
+        color: var(--preto);
+        font-size: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        padding: 6px;
+        padding-top: 6px;
+        flex-direction: row-reverse;      
+    }
+
+.linha_sup_dir 
+    {
+        text-transform: capitalize;
+        border-radius: 7px;
+        font-size: 20px;
+        border: 1px solid var(--azulC);
+        display: flex;
+        margin: 10px;
+        justify-content: flex-end;
+    }
+
+.linha_sup_dir p
+    {
+        padding: 6px;
+    }
+
+
 
  #divBusca
     {
@@ -115,29 +163,30 @@ body
         width:260px;
     }
 
-.label-input 
+.label_mail
     {
     display: flex;
     flex-direction: column;
-    padding: 10px 0px;
+    padding: 10px 10px;
     color: var(--branco);
     }
 
-.label-input label 
+.label_mail label 
     {
     color: var(--preto);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     }
 
-.label-input input 
+.label_mail input 
     {
     height: 30px;
+    width: 250px;
     border-radius: 7px;
-    border: none;
+    border: solid 1px;
     text-indent: 5px;
     font-size: 15px;
-    background-color: var(--preto);
+    background-color: var(--branco);
     /* color: var(branco); */
     }
 
@@ -158,26 +207,30 @@ body
         align-items: center;
         flex-direction: column;
         margin: 0 auto;
-      
+        padding-top: 20px;
         width: 300px;
         
-        
-        border-top: 4px solid var(--azul);
-        border-bottom: 4px solid var(--azul) ;
-        border-left: 2px solid #7c7c7c;
-        border-right:  2px solid #7c7c7c;
+        border-top: 10px solid var(--azulC);
+        border-bottom: 10px solid var(--azulC);
+        border-left: 2px solid var(--preto);
+        border-right:  2px solid var(--preto);
         justify-content: center;
+        border-radius: 10px;
     }
 
-.botao
+.formulario button
     {
         margin: 30px;
         border-radius: 5px;
-        font-size: 15px;
-        /* color: var(--branco); */
+        font-size: 20px;
+        color: var(--branco);
         background-color: var(--azulM); 
-        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40%;
         display: flex;
+        text-transform: capitalize;
+        font-weight: bold;
       }
 
 .salvar
