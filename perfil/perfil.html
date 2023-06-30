@@ -12,92 +12,131 @@
 <body>
     <aside>
         <nav class="menu">
-            <i><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></i>
+            <i><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                </svg></i>
             <p>Cadastro</p>
-            <p>Consulta</p> <!--  <a href="#">Consulta</a>  <button><a href="#">Consulta</a></button> --> 
+            <p>Consulta</p> <!--  <a href="#">Consulta</a>  <button><a href="#">Consulta</a></button> -->
         </nav>
     </aside>
-
-    <header class="topo">
-        <div class="logo">
-            <img src="./Logomamuka.png" alt="logo">
-        </div>
-        <div class="pesquisa">
-    
-            <!--<i class="fa-solid fa-magnifying-glass" id="lupa"></i>-->    
-            <i><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></i>
-            <input class="campotexto" type="text" placeholder="Pesquisa">
-        </div>
-        <div class="ricardo">
-            <img src="./Ricardo.png" alt="">
-            <p>Ricardo Souza</p>
-            <i><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"/></svg></i>
-    </header >
-    <main>
-        <div class="sinalizacao">
-            <p>Desenvolvedor/perfil</p>
-        </div>
-        <section class="perfil_geral configconteudo">
-            <div class="conteudo_topo">
-                <img src="../img/PessoaPerfil.png" alt="">
-                <div class="input1 input_style">
-                    <div class="s1">
-                        <label for="name">Nome:</label>
-                        <input type="text" name="name" id="name" placeholder="Ricardo Souza">
-
-                        <label for="id">ID:</label>
-                        <input type="text" name="id" id="id" placeholder="899878321">
-                    </div>
-                    <div class="s2">
-                        <label for="email">E-mail:</label>
-                        <input type="text" name="email" id="email" placeholder="ricardosouza1980@gmail.com">
-
-                        <label for="status">Status:</label>
-                        <input type="text" name="status" id="status" placeholder="Ativo">
-                    </div>  
-                </div>
-                <!-- <div class="input2 input_style">
+    <div class="right">
+        <main>
+            <div class="sinalizacao">
+                <p>Desenvolvedor/perfil</p>
+            </div>
+            <section class="perfil_geral configconteudo">
+                <div class="conteudo_topo">
+                    <img src="../img/PessoaPerfil.png" alt="">
+                    <div class="input1 input_style">
+                        <div class="att">
+                            <div class="s1 padrao_input">
+                                <div class="att">
+                                    <label for="name">Nome:</label>
+                                    <input type="text" name="name" id="name" placeholder="Ricardo Souza">
+                                </div>
+                                <div class="att">
+                                    <label for="id">ID:</label>
+                                    <input type="text" name="id" id="id" placeholder="899878321">
+                                </div>
+                            </div>
+                            <div class="s2 padrao_input">
+                                <div class="att">
+                                    <label for="email">E-mail:</label>
+                                    <input type="text" name="email" id="email" placeholder="ricardosouza1980@gmail.com">
+                                </div>
+                                <div class="att">
+                                    <label for="status">Status:</label>
+                                    <input type="text" name="status" id="status" placeholder="Ativo">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="input2 input_style">
                     <label for="email">E-mail:</label>
                     <input type="text" name="email" id="email" placeholder="ricardosouza1980@gmail.com">
 
                     <label for="status">Status:</label>
-                    <input type="text" name="status" id="status" placeholder="Ativo">
-                </div> -->
+                    <input type="text" name="status" id="status" placeholder="Ativo"> -->
+                </div> 
+                    </div>
+                    <div class="conteudo">
+                        <div class="input3 input_style padrao_input">
+                            <div class="att">
+                                <label class="textos" for="cargo">Cargo:</label>
+                                <input class="alinhamento" type="text" name="cargo" id="cargo" placeholder="Gerente">
+                            </div>
+
+                            <div class="att">
+                                <label class="textos" for="depart">Departamento:</label>
+                                <input class="alinhamento" type="text" name="depart" id="depart"
+                                    placeholder="Financeiro">
+                            </div>
+                            <div class="att">
+                                <label class="textos" for="resp">Responsável:</label>
+                                <input class="alinhamento" type="text" name="resp" id="resp"
+                                    placeholder="Eduardo Matos">
+                            </div>
+                        </div>
+                        <div class="input4 input_style padrao_input">
+                            <div class="att">
+                                <label class="textos" for="perfil">Perfil:</label>
+                                <input class="alinhamento" type="text" name="perfil" id="perfil"
+                                    placeholder="Administrador">
+                            </div>
+                            <div class="att">
+                                <label class="textos" for="datai">Data integração:</label>
+                                <input class="alinhamento" type="text" name="datai" id="datai" placeholder="23/02/2023">
+                            </div>
+                            <div class="att">
+                                <label class="textos" for="pais">País:</label>
+                                <input class="alinhamento" type="text" name="pais" id="pais" placeholder="Brasil">
+                            </div>
+                            <div class="att">
+                                <label class="textos" for="cidade">Cidade:</label>
+                                <input class="alinhamento" type="text" name="cidade" id="cidade"
+                                    placeholder="São Paulo">
+                            </div>
+                        </div>
+                        <div class="input5 input_style padrao_input">
+                            <div class="att">
+                                <label class="textos" for="estado">Estado:</label>
+                                <input class="alinhamento" type="text" name="estado" id="estado"
+                                    placeholder="São Paulo">
+                            </div>
+                            <div class="att">
+                                <label class="textos" for="local">Localização:</label>
+                                <input class="alinhamento" type="text" name="local" id="local" placeholder="Filial">
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+        <header class="topo">
+            <div class="logo">
+                <img src="../img/Logo.png" alt="logo">
             </div>
-            <div class="conteudo">
-                <div class="input3 input_style">
-                    <label for="cargo">Cargo:</label>
-                    <input type="text" name="cargo" id="cargo" placeholder="Gerente">
+            <div class="pesquisa">
 
-                    <label for="depart">Departamento:</label>
-                    <input type="text" name="depart" id="depart" placeholder="Financeiro">
-
-                    <label for="resp">Responsável:</label>
-                    <input type="text" name="resp" id="resp" placeholder="Eduardo Matos">
-                </div>
-                <div class="input4 input_style">
-                    <label for="perfil">Perfil:</label>
-                    <input type="text" name="perfil" id="perfil" placeholder="Administrador">
-
-                    <label for="datai">Data integração:</label>
-                    <input type="text" name="datai" id="datai" placeholder="23/02/2023">
-
-                    <label for="pais">País:</label>
-                    <input type="text" name="pais" id="pais" placeholder="Brasil">
-
-                    <label for="cidade">Cidade:</label>
-                    <input type="text" name="cidade" id="cidade" placeholder="São Paulo">
-                </div>
-                <div class="input5 input_style">
-                    <label for="estado">Estado:</label>
-                    <input type="text" name="estado" id="estado" placeholder="São Paulo">
-
-                    <label for="local">Localização:</label>
-                    <input type="text" name="local" id="local" placeholder="Filial">
-                </div>
+                <!--<i class="fa-solid fa-magnifying-glass" id="lupa"></i>-->
+                <i><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                    </svg></i>
+                <input class="campotexto" type="text" placeholder="Pesquisa">
             </div>
-        </section>
-    </main>
+            <div class="ricardo">
+                <img src="../img/Ricardo.png" alt="">
+                <p>Ricardo Souza</p>
+                <i><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                        viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z" />
+                    </svg></i>
+        </header>
+
+    </div>
 </body>
 
 </html>
