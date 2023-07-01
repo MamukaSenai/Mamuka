@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    resize: none;
+}
+@font-face {
+    font-family: "Core Sans G";
+    src: url(../fonts/CoreSansG-Regular.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+:root{
+    --azulescuro: #405189;
+    --branco: #ffffff;
+    --azulClaro: #0073EA;
+    --cinza: #2C2E3E;
+    --cinzaclaro: #7C7C7C;
+    --font: "Core Sans G";
+    --vermelho: #F22D2D;
+    --laranja: #F9784F;
+    --verde: #26CB7B;
+}
+
+body {
+    width: 100vw;  
+    height: 100vh;
+    display: flex;
+    font-family: var(--font);
+    overflow-x: hidden; 
+    overflow-y: hidden;
+
+}
+
+.topo{
+  
+    background-color: var(--azulescuro);
+    
+
+}
+
+
+aside {
+    display: flex;
+    height: 100vh;
+    width: 6.5vw;
+    
+}
+
+
+
+.menu {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cinza);
+    color: #fff;
+    fill: #fff;
+} 
+
+.menu svg{
+    height: 5vh;
+    width: 5vw;
+    margin-top: 15px;
+}
+
+.menu p {
+    padding-top: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 800;
+    font-size:large;
+}
+
+
+
+
+  .right {
+
+    display: flex;
+    flex-direction:column-reverse;
+    height: 100vh;
+    width: 83.8vw;
+    
+}
+
+.topo {
+    height: 12vh;
+    width: 93.5vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--azulescuro);
+
+    align-items: center;
+}
+
+
+
+.logo img {
+    width: 180px;
+    padding: 15px;
+} 
+
+.pesquisa svg {
+    
+    position: absolute;
+    color: var(--cinza);
+    margin-left: 7px;
+    margin-top: 7px;
+    fill: var(--cinzaclaro);
+}
+.campotexto{
+    width: 25vw;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 40px;
+    border: none;
+}
+
+.ricardo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: var(--branco);
+    fill: var(--branco);
+}
+
+.ricardo img {
+    padding: 10px;
+}
+
+
+
+.ricardo p {
+    padding-right: 9px;
+    font-weight: 600;
+    
+
+}
+
+main {
+    height: 88vh;
+    width: 100vw;  
+    display: flex;
+    
+}
+
+.linha_conteudo{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column-reverse;
+}
+
+/* .centro{
+  display: flex;
+  align-items: center;
+} */
+
+
+  #pulo{
+    font-size: 40px;
+    padding: 30px 0;
+  }
+  .ali{
+    border-radius: 20px;
+    border: 2px;
+  }
+
+  .zaza p{
+    padding-top: 30px;
+    font-weight: 700;
+  }
+  
+  
+
+  .direita p{
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+
+}
+
+
+
+
+
+    
+
+
+
+
+
+  
+  
+
+.botao{
+
+    margin: 30px;
+    border-radius: 20px;
+    border-radius: 10px;
+    padding: 10PX;
+    transform: none;
+    width: 120px;
+  }
+
+
+.esquerda p{
+  color: #7c7c7c;
+  font-size: 20px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  border-radius: 15px;
+  padding: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  padding-top: 5px;
+  flex-direction: row-reverse;
+
+}
+
+.direita p{
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+
+}
+
+.corpo{
+    background-color: #405189;
+    display: flex;
+    border-radius: 10px;
+    border-radius: 2px;
+    color: #ffffff;
+  
+  }
+
+  .perfil{
+    border-radius: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid #7c7c7c;
+    padding-left: 10px;
+  }
+
+  /* .perfil{
+    border-radius: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid #7c7c7c;
+    padding-left: 10px;
+
+
+
+
+ } */
+
+  .coluna{
+    background-color: #2e2e3e;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .bonequinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  
+  
+  }
+
+  .sabao{
+    font-size: 15px;
+  
+    padding-right: 125px;
+   }
+
+   .sabao{
+    font-size: 15px;
+  
+    padding-right: 125px;
+   }
+  
+   .sabonete{
+    font-size: 15px;
+    justify-content: center;
+    padding-right: 30px;
+   }
+
+   .salvar{
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #405189;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: center;
+  }
