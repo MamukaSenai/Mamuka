@@ -204,7 +204,8 @@ section {
 
 .input-box > input {
     border-radius: 3px;
-
+    color: var(--cinzaclaro);
+    border: 1px solid var(--cinzaclaro);
 }
 
 .input-box > textarea{
