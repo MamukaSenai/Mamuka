@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    resize: none;
+}
+@font-face {
+    font-family: "Core Sans G";
+    src: url(../fonts/CoreSansG-Regular.ttf);
+}
+
+
+:root{
+    --azulescuro: #405189;
+    --branco: #ffffff;
+    --azulClaro: #0073EA;
+    --cinza: #2C2E3E;
+    --cinzaclaro: #7C7C7C;
+    --font: "Core Sans G";
+    --vermelho: #F22D2D;
+    --laranja: #F9784F;
+    --verde: #26CB7B;
+}
+
+body 
+{
+    width: 100vw;  
+    height: 100vh;
+    display: flex;
+    font-family: var(--font);
+    overflow-x: hidden; 
+    overflow-y: hidden;
+
+}
+
+
+aside {
+    display: flex;
+    height: 100vh;
+    width: 6.5vw;
+    
+}
+
+.menu {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cinza);
+    color: #fff;
+    fill: #fff;
+} 
+
+.menu svg{
+    height: 5vh;
+    width: 5vw;
+    margin-top: 15px;
+}
+
+.menu p {
+    padding-top: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 800;
+    font-size:large;
+}
+
+.right {
+
+    display: flex;
+    flex-direction:column-reverse;
+    height: 100vh;
+    width: 83.8vw;
+    
+}
+
+.topo {
+    height: 12vh;
+    width: 93.5vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--azulescuro);
+
+    align-items: center;
+}
+
+
+
+.logo img {
+    width: 180px;
+    padding: 15px;
+} 
+
+/*
+.campotexto{
+    width: 25vw;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+#lupa {
+    padding: 10px;
+    position: absolute;
+    color: var(--cinza);
+    
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+}
+*/
+
+.pesquisa svg {
+    
+    position: absolute;
+    color: var(--cinza);
+    margin-left: 7px;
+    margin-top: 7px;
+    fill: var(--cinzaclaro);
+}
+.campotexto{
+    width: 25vw;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 40px;
+    border: none;
+}
+
+.ricardo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: var(--branco);
+    fill: var(--branco);
+}
+
+.ricardo img {
+    padding: 10px;
+}
+
+
+
+.ricardo p {
+    padding-right: 9px;
+    font-weight: 600;
+    
+
+}
+
+main 
+{
+    height: 88vh;
+    /* width: 100vw;   */
+    /* display: flex;  */
+    /* padding: 10px 0px 10px 10px; */
+    /* margin-left: 50px; */ 
+}
+
+
+/* CSS DO CENTRO DA TELA */
+
+.linha_sup_status
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        font-size: 20px;
+     }
+
+.linha_sup_esq
+     {
+         text-transform: capitalize;
+         color: var(--cinzaclaro);
+         font-size: 20px;
+         display: flex;
+         justify-content: space-evenly;
+         border-radius: 10px;
+         padding: 6px;
+         padding-top: 6px;
+         flex-direction: row-reverse;    
+         margin-left: 30px;
+         margin-top: 10px;  
+     }
+
+.linha_sup_dir 
+     {
+         text-transform: capitalize;
+         border-radius: 7px;
+         font-size: 20px;
+         border: 1px solid var(--cinzaclaro);
+         display: flex;
+         margin: 10px;
+         justify-content: flex-end;
+     }
+
+.linha_sup_dir p
+     {
+         padding: 6px;
+     }
+ 
+.destaque
+     {
+         background-color: var(--azulescuro);
+         display: flex;
+         border-radius: 7px;
+         color:var(--branco);
+     }
+
+     .formulario
+     {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         margin: 0 auto;
+         padding-top: 20px;
+         width: 300px;
+         
+         border-top: 10px solid var(--azulClaro);
+         border-bottom: 10px solid var(--azulClaro);
+         border-left: 2px solid var(--cinzaclaro);
+         border-right:  2px solid var(--cinzaclaro);
+         justify-content: center;
+         border-radius: 10px;
+     }
+ 
+ .formulario button
+     {
+         margin: 30px;
+         border-radius: 5px;
+         font-size: 20px;
+         color: var(--branco);
+         background-color: var(--azulescuro); 
+         padding-left: 20px;
+         padding-right: 20px;
+         margin-top: 20%;
+         display: flex;
+         text-transform: capitalize;
+         font-weight: bold;
+       }
+ 
+ .salvar
+     {
+         color: var(--branco);
+         text-transform: capitalize;
+     }
+
+
+.label_mail
+    {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    color: var(--branco);
+    }
+
+.label_mail label 
+    {
+    color: var(--cinzaclaro);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    }
+
+.label_mail input 
+    {
+    height: 30px;
+    width: 250px;
+    border-radius: 7px;
+    border: solid 1px;
+    text-indent: 5px;
+    font-size: 15px;
+    color: var(--cinzaclaro);
+    }
+    
