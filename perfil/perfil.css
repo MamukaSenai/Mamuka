@@ -1,0 +1,298 @@
+@font-face {
+    font-family: "Core Sans G";
+    src: url(fonts\CoreSansG\CoreSansG-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    resize: none;
+    font-family: sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+:root {
+    --azulescuro: #405189;
+    --branco: #ffffff;
+    --azulClaro: #0073EA;
+    --cinza: #2C2E3E;
+    --cinzaclaro: #7C7C7C;
+    --fonte1: 'Raleway', sans-serif;
+    --fonte2: "Core Sans G";
+
+}
+
+/* menu */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: var(--font);
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+
+aside {
+    display: flex;
+    height: 100vh;
+    width: 6.5vw;
+
+}
+
+.menu {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cinza);
+    color: #fff;
+    fill: #fff;
+}
+
+.menu svg {
+    height: 5vh;
+    width: 5vw;
+    margin-top: 15px;
+}
+
+.menu p {
+    padding-top: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 800;
+    font-size: large;
+}
+
+.right {
+
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vh;
+    width: 83.8vw;
+
+}
+
+.topo {
+    height: 12vh;
+    width: 93.5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--azulescuro);
+
+    align-items: center;
+}
+
+
+
+.logo img {
+    width: 180px;
+    padding: 15px;
+}
+
+.pesquisa svg {
+
+    position: absolute;
+    color: var(--cinza);
+    margin-left: 7px;
+    margin-top: 7px;
+    fill: var(--cinzaclaro);
+}
+
+.campotexto {
+    width: 25vw;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 40px;
+    border: none;
+}
+
+.ricardo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: var(--branco);
+    fill: var(--branco);
+}
+
+.ricardo img {
+    padding: 10px;
+}
+
+
+
+.ricardo p {
+    padding-right: 9px;
+    font-weight: 600;
+
+
+}
+
+main {
+    height: 88vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+
+/* menu */
+
+.perfil_geral {
+    height: 70vh;
+    margin-top: 5%;
+    padding-right: 15px;
+}
+
+.sinalizacao {
+    color: var(--cinzaclaro);
+}
+
+.configconteudo {
+    border: 1px solid var(--cinzaclaro);
+    border-radius: 5px;
+    border-top: 10px solid var(--azulClaro);
+    border-bottom: 10px solid var(--azulClaro);
+}
+
+.input_style input {
+    border: 1px solid var(--cinzaclaro);
+    border-radius: 10px;
+    height: 3.5vh;
+    color: var(--cinzaclaro);
+}
+
+.input1,
+.input2,
+.input3,
+.input4,
+.input5 {
+    color: var(--cinzaclaro);
+}
+
+.conteudo_topo {
+    display: flex;
+    align-items: center;
+}
+
+
+.padrao_input {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+
+}
+
+.s1 {
+    padding-bottom: 30px;
+
+}
+
+.conteudo_topo img {
+    padding: 30px 50px;
+}
+
+#name {
+    width: 100%;
+
+}
+
+#email {
+    width: 100%;
+
+}
+
+.input3,
+.input4,
+.input5 {
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.att {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.att label {
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+
+.x1 {
+    width: 20vw;
+    padding-left: 30px;
+}
+
+.x2 {
+    width: 20vw;
+    padding-left: 30px;
+}
+
+.x2 #resp {
+    width: 38vw;
+}
+
+.x3 {
+    width: 50vw;
+    padding-left: 30px;
+
+}
+
+
+#pais,
+#cidade {
+    width: 18vw;
+}
+
+.pc {
+    padding-left: 30px;
+}
+
+.integ {
+    padding-left: 15px;
+}
+
+#perfil,
+#estado {
+    width: 14vw;
+}
+
+
+.x4local {
+    width: 50vw;
+    padding-right: 300px;
+}
+
+
+#name,
+#id,
+#email,
+#status,
+#cargo,
+#depart,
+#resp,
+#perfil,
+#datai,
+#pais,
+#cidade,
+#estado,
+#local {
+    padding: 10px;
+}
+
+
+.sinalizacao p {
+    padding-left: 20px;
+    padding-top: 20px;
+}
