@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro 3</title>
+    <!-- link para carregar os icones -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+    <!-- cabecalho -->
+    <header>
+
+        <div class="menu_sup">
+            <img src="../img/Logo.png" alt="">
+            <form>
+
+                <img class="lupa" src="./file/lupa.png" alt="">
+                <input class="barra_pesquisa" type="search" name="Pesquisa" id="campo_pesquisa" placeholder="Pesquisa"> 
+            
+                
+            </form>
+
+            <img src="../img/Ricardo.png" alt="">
+        </div>
+
+    </header>
+
+    <!-- https://www.youtube.com/watch?v=wEfaoAa99XY tempo 4.39-->
+    <!-- boxincons.com  Link -->
+    <!-- corpo da pagina-->
+    <aside>
+
+        <!-- BARRA LATERAL -->
+        <div class="sidebar">
+            <div class="logo_content">
+                <img src="../img/MENU.png" alt="">
+                <!-- <i class="bx bx-menu" id="btn"></i> -->
+            </div>
+
+            <ul class="nav_list">
+                <li>
+                    <a href="#">
+                        <!-- <i class="bx bx-grid-alt"></i> -->
+                        <span class="link_name">Projetos</span>
+                    </a>
+                    <!-- <span class="tooltip">dashboard</span> -->
+                </li>
+                <li>
+                    <a href="#">
+                        <!-- <i class="bx bx-grid-alt"></i> -->
+                        <span class="link_name">Criar Projetos</span>
+                    </a>
+                    <!-- <span class="tooltip">dashboard</span> -->
+                </li>
+                <li>
+                    <a href="#">
+                        <!-- <i class="bx bx-grid-alt"></i> -->
+                        <span class="link_name">Criar Demandas</span>
+                    </a>
+                    <!-- <span class="tooltip">dashboard</span> -->
+                </li>
+            </ul>
+        </div>
+        <!-- BARRA LATERAL FIM -->
+
+    </aside>
+
+
+    <main>
+
+        <span class="Gestor">Gestor/Criar Projetos</span>
+
+        <div class="container">
+
+            <form class="formulario">
+
+                <section>
+                    <div class="input-box">
+                        <label for="firstname">Nome:</label>
+                        <input type="text" name="firstname" placeholder=" Laboratório 1"
+                            required>
+                    </div>
+
+                    <div class="linha1"> 
+
+                            <div class="input-box">
+                                <label for="ID_do_projeto">Status:</label>
+                                <input type="password" name="ID_do_projeto" placeholder=" Andamento"
+                                    required>
+                            </div>
+        
+                            
+                            <div class="input-box">
+                                <label for="Status:">ID:</label>
+                                <input type="text" name="Status:" placeholder=" 100/23" required>
+                            </div>
+        
+        
+                            <div class="input-box">
+                                <label for="Responsáveis">Grupo:</label>
+                                <input type="text" name="Fase:" placeholder=" São Caetano 1.34" required>
+                                
+                            </div>
+
+                        </div>
+
+
+                    <div class="linha2">
+
+                        <div class="input-box">
+                            <label for="Conclusão">Inicio:</label>
+                            <input type="date" name="Inicio:" placeholder="12/04/2023" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="Conclusão">Conclusão:</label>
+                            <input type="date" name="Conclusão" placeholder=" 28/11/2023" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="Gestor_do_projeto">Gestor do projeto:</label>
+                            <input type="text" name="Gestor do projeto" placeholder=" Ricardo Souza" required>
+                        </div>
+
+                    
+                    </div>
+
+                        <div class="input-box">
+                            <label for="Responsáveis">Descrição:</label>
+                            <textarea name="text" name="Responsáveis" cols="20" rows="8" placeholder=" Este projeto consistiu no desenvolvimento de uma aplicação mobile Android e iOS, para gestão de estacionamentos,em tecnologia C# .Net OutSystems (plataforma de low-code), bem como de BackEnd em tecnologia PHP WordPress, para suporte as operações." required></textarea>
+                            
+                        </div>
+
+                    <div class="continue-button">
+                        <button>Criar</button>
+
+                    </div>
+
+                </section>
+ 
+
+
+            </form>
+
+        </div>
+
+
+
+
+
+    </main>
+
+
+
+</body>
+
+</html>
