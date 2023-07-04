@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    resize: none;
+}
+@font-face {
+    font-family: "Core Sans G";
+    src: url(../fonts/CoreSansG-Regular.ttf);
+}
+
+
+:root{
+    --azulescuro: #405189;
+    --branco: #ffffff;
+    --azulClaro: #0073EA;
+    --cinza: #2C2E3E;
+    --cinzaclaro: #7C7C7C;
+    --font: "Core Sans G";
+    --vermelho: #F22D2D;
+    --laranja: #F9784F;
+    --verde: #26CB7B;
+}
+
+body {
+    width: 100vw;  
+    height: 100vh;
+    display: flex;
+    font-family: var(--font);
+    overflow-x: hidden; 
+    overflow-y: hidden;
+
+}
+
+
+aside {
+    display: flex;
+    height: 100vh;
+    width: 6.5vw;
+    
+}
+
+.menu {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cinza);
+    color: #fff;
+    fill: #fff;
+    text-align: center;
+} 
+
+.menu svg{
+    height: 5vh;
+    width: 5vw;
+    margin-top: 15px;
+}
+
+.menu p {
+
+    padding-top: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 700;
+
+}
+
+.right {
+
+    display: flex;
+    flex-direction:column-reverse;
+    height: 100vh;
+    width: 65.8vw;
+    
+}
+
+.topo {
+    height: 12vh;
+    width: 93.5vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--azulescuro);
+
+    align-items: center;
+}
+
+
+
+.logo img {
+    width: 180px;
+    padding: 15px;
+} 
+
+/*
+.campotexto{
+    width: 25vw;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+#lupa {
+    padding: 10px;
+    position: absolute;
+    color: var(--cinza);
+    
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+}
+*/
+
+.pesquisa svg {
+    
+    position: absolute;
+    color: var(--cinza);
+    margin-left: 7px;
+    margin-top: 7px;
+    fill: var(--cinzaclaro);
+}
+.campotexto{
+    width: 25vw;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 40px;
+    border: none;
+}
+
+.ricardo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: var(--branco);
+    fill: var(--branco);
+}
+
+.ricardo img {
+    padding: 10px;
+}
+
+
+
+.ricardo p {
+    padding-right: 9px;
+    font-weight: 600;
+    
+
+}
+
+main {
+    height: 88vh;
+    width: 100vw;  
+    display: flex;
+    
+}
+
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.formulario{
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    border-width: 5px 1px;
+    border-color:#0073EA #7C7C7C;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+section {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  
+   
+}
+
+.input-box{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.input-box > input {
+    border-radius: 3px;
+    color: var(--cinzaclaro);
+    border: 1px solid var(--cinzaclaro);
+}
+
+.input-box > textarea{
+    border-radius: 5px;
+}
+
+
+.linha1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.linha2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+.continue-button{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    
+}
+
+
+.continue-button button{
+    margin-top: 2%;
+    padding: 2px 5px 2px 5px;
+    color: white;
+    background-color: #405189;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.gestor {
+    color: var(--cinzaclaro);
+    margin-top: 15px;
+    margin-left: 15px;
+}
