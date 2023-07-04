@@ -67,8 +67,8 @@ aside {
     padding-top: 50%;
     padding-right: 5%;
     padding-left: 5%;
-    font-weight: 800;
-    font-size: large;
+    font-weight: 700;
+    /* font-size: large; */
 }
 
 .right {
@@ -148,7 +148,7 @@ main {
 /* menu */
 
 .perfil_geral {
-    height: 70vh;
+    height: 73vh;
     margin-top: 5%;
     padding-right: 15px;
 }
@@ -162,6 +162,7 @@ main {
     border-radius: 5px;
     border-top: 10px solid var(--azulClaro);
     border-bottom: 10px solid var(--azulClaro);
+    
 }
 
 .input_style input {
@@ -182,6 +183,7 @@ main {
 .conteudo_topo {
     display: flex;
     align-items: center;
+    
 }
 
 
@@ -200,6 +202,7 @@ main {
 .conteudo_topo img {
     padding: 30px 50px;
 }
+
 
 #name {
     width: 100%;
