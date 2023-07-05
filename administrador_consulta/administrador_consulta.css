@@ -62,8 +62,18 @@ aside {
     padding-top: 50%;
     padding-right: 5%;
     padding-left: 5%;
-    font-weight: 800;
-    font-size:large;
+    font-weight: 700;
+
+}
+
+.menu a {
+    padding-top: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 700;
+    
+    color: var(--branco);
+    text-decoration: none;
 }
 
 .right {
@@ -149,7 +159,13 @@ aside {
     padding-right: 9px;
     font-weight: 600;
     
+}
 
+.ricardo a {
+    padding-right: 9px;
+    font-weight: 600;
+    color: var(--branco);
+    text-decoration: none;
 }
 
 main {

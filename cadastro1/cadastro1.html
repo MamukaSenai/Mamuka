@@ -11,8 +11,9 @@
     <aside>
         <nav class="menu">
             <i><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></i>
-            <p>Cadastro</p>
-            <p>Consulta</p> <!--  <a href="#">Consulta</a>  <button><a href="#">Consulta</a></button> --> 
+            <a href="../cadastro1/cadastro1.html">Cadastro</a>
+            <!-- <p>Consulta</p> <a href="#">Consulta</a>  <button><a href="#">Consulta</a></button> --> 
+            <a href="../administrador_consulta/administrador_consulta.html">Consulta</a>
         </nav>
     </aside>
 
@@ -27,9 +28,10 @@
                     </div>
             
                     <div class="linha_sup_dir">
-                        <p>pessoal</p>       
-                        <p class="destaque">corporativo</p>
-                        <p>conclusao</p> 
+                        <!-- <p class="destaque">pessoal</p> -->
+                        <a href="../cadastro1/cadastro1.html" class="destaque">pessoal</a>       
+                        <a href="../cadastro2/cadastro2.html" class="destaque2">corporativo</a>
+                        <a href="../cadastro3/cadastro3.html" class="destaque2">conclusão</a>
                     </div>
             
                 </div>   
@@ -41,29 +43,26 @@
                         <img src="../img/PessoaCadastro.png" alt="">            
                     </div>
                 
-                    <div>
-                        <img src="../cadastro3/img/PessoaCadastro.png" alt="">
-                    </div>
-                    
+                
                     <div class="label_mail">
-                        <label for="campo-usuario">perfil:</label>
-                        <input placeholder="Administrador" name="usuario" id="campo-usuario">  
+                        <label for="campo-usuario">Nome:</label>
+                        <input placeholder="Ricardo Souza" name="usuario" id="campo-usuario">  
                     </div>
     
     
                     <div class="label_mail">
-                        <label for="campo-senha">Cargo:</label>
-                        <input placeholder="Gerente" name="usuario" id="campo-usuario">
+                        <label for="campo-senha">Data de nascimento:</label>
+                        <input placeholder="12/10/1980" name="usuario" id="campo-usuario">
                     </div>
 
                     <div class="label_mail">
-                        <label for="campo-senha">Numero Usuario:</label>
-                        <input placeholder="987874652023" name="usuario" id="campo-usuario">
+                        <label for="campo-senha">CPF:</label>
+                        <input placeholder="211.235.632.23" name="usuario" id="campo-usuario">
                     </div>
 
     
                     <div>
-                        <button type="submit">salvar</button> 
+                        <button type="submit" > <a href="../cadastro2/cadastro2.html">salvar</a> </button> 
                     </div>         
             </form>  
             <!-- </section> -->
@@ -82,7 +81,7 @@
 
         <header class="topo">
             <div class="logo">
-                <img src="../cadastro3/img/Logo.png" alt="logo">
+                <a href="../administrador_home/administrador_home.html"><img src="../img/Logo.png" alt="logo"></a>
             </div>
             <div class="pesquisa">
         
@@ -92,7 +91,8 @@
             </div>
             <div class="ricardo">
                 <img src="../cadastro3/img/Ricardo.png" alt="">
-                <p>Ricardo Souza</p>
+                <!--<p>Ricardo Souza</p>-->
+                <a href="../perfil_administrador/perfil_administrador.html">Ricardo Souza</a>
                 <i><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"/></svg></i>
         </header >
         

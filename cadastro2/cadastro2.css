@@ -62,9 +62,20 @@ aside {
     padding-top: 50%;
     padding-right: 5%;
     padding-left: 5%;
-    font-weight: 800;
-    font-size:large;
+    font-weight: 700;
+    
 }
+
+.menu a {
+    padding-top: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 700;
+    
+    color: var(--branco);
+    text-decoration: none;
+}
+
 
 .right {
 
@@ -152,6 +163,14 @@ aside {
 
 }
 
+.ricardo a {
+    padding-right: 9px;
+    font-weight: 600;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+
 main 
 {
     height: 88vh;
@@ -168,7 +187,7 @@ main
     {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         font-size: 20px;
      }
 
@@ -176,15 +195,15 @@ main
      {
          text-transform: capitalize;
          color: var(--cinzaclaro);
-         font-size: 20px;
+         font-size: 16px;
          display: flex;
          justify-content: space-evenly;
          border-radius: 10px;
-         padding: 6px;
+         
          padding-top: 6px;
          flex-direction: row-reverse;    
-         margin-left: 30px;
-         margin-top: 10px;  
+         margin-left: 20px;
+         margin-top: 4px;  
      }
 
 .linha_sup_dir 
@@ -198,18 +217,24 @@ main
          justify-content: flex-end;
      }
 
-.linha_sup_dir p
+     .destaque2
      {
          padding: 6px;
+         text-decoration: none;
+         color:var(--cinzaclaro);
+         
      }
  
-.destaque
-     {
-         background-color: var(--azulescuro);
-         display: flex;
-         border-radius: 7px;
-         color:var(--branco);
-     }
+
+     .destaque{
+        background-color: var(--azulescuro);
+        display: flex;
+        border-radius: 7px;
+        color:var(--branco);
+        text-decoration: none;
+        padding: 6px;
+        color: var(--branco);
+    }
 
      .formulario
      {
@@ -243,6 +268,12 @@ main
          text-transform: capitalize;
          font-weight: bold;
        }
+       
+       .formulario a {
+        text-decoration: none;
+        color: var(--branco);
+    }
+
  
  .salvar
      {
@@ -277,3 +308,6 @@ main
     color: var(--cinzaclaro);
     }
     
+.formulario img {
+    width: 100px;
+}
