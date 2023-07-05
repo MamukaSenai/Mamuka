@@ -58,14 +58,24 @@ aside {
     margin-top: 15px;
 }
 
-.menu p {
+/* .menu p {
 
     padding-top: 50%;
     padding-right: 5%;
     padding-left: 5%;
     font-weight: 700;
 
+} */
+
+.menu a{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 50%;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--branco);
 }
+
 
 .right {
 
@@ -146,11 +156,18 @@ aside {
 
 
 
-.ricardo p {
+/* .ricardo p {
     padding-right: 9px;
     font-weight: 600;
     
 
+} */
+
+.ricardo a {
+    font-weight: 600;
+    padding-right: 9px;
+    text-decoration: none;
+    color: var(--branco);
 }
 
 main {
