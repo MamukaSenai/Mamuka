@@ -51,6 +51,7 @@ aside {
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     background-color: var(--cinza);
     color: #fff;
     fill: #fff;
@@ -69,6 +70,16 @@ aside {
     font-weight: 700;
     /* font-size: large; */
     text-align: center;
+}
+
+.menu a {
+    padding-top: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 700;
+    
+    color: var(--branco);
+    text-decoration: none;
 }
 
 .right {

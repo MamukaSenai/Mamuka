@@ -4,7 +4,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    resize: none;
+
 
 }
 
@@ -21,7 +21,6 @@
     --azulClaro: #0073EA;
     --cinza: #2C2E3E;
     --cinzaclaro: #7C7C7C;
- 
     --fonte2: "Core Sans G";
 
 }
@@ -32,10 +31,10 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    font-family: var(--font);
+    font-family: var(--fonte2);
     overflow-x: hidden;
     overflow-y: hidden;
-    font-family: var(--fonte2);
+
 }
 
 
@@ -63,23 +62,24 @@ aside {
     margin-top: 15px;
 }
 
-/* .menu p {
+.menu p {
     padding-top: 50%;
     padding-right: 5%;
     padding-left: 5%;
     font-weight: 700;
-    font-size: large;
-} */
-
-.menu a{
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-top: 50%;
-    font-weight: 600;
-    text-decoration: none;
-    color: var(--branco);
+    /* font-size: large; */
+    text-align: center;
 }
 
+.menu a {
+    padding-top: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 700;
+    
+    color: var(--branco);
+    text-decoration: none;
+}
 
 .right {
 
@@ -140,18 +140,18 @@ aside {
 
 
 
-/* .ricardo p {
+.ricardo p {
     padding-right: 9px;
     font-weight: 600;
 
 
-} */
+}
 
 .ricardo a {
-    font-weight: 600;
     padding-right: 9px;
-    text-decoration: none;
+    font-weight: 600;
     color: var(--branco);
+    text-decoration: none;
 }
 
 main {
@@ -165,7 +165,7 @@ main {
 /* menu */
 
 .perfil_geral {
-    height: 70vh;
+    height: 73vh;
     margin-top: 5%;
     padding-right: 15px;
 }
@@ -179,6 +179,7 @@ main {
     border-radius: 5px;
     border-top: 10px solid var(--azulClaro);
     border-bottom: 10px solid var(--azulClaro);
+    
 }
 
 .input_style input {
@@ -199,6 +200,7 @@ main {
 .conteudo_topo {
     display: flex;
     align-items: center;
+    
 }
 
 
@@ -217,6 +219,7 @@ main {
 .conteudo_topo img {
     padding: 30px 50px;
 }
+
 
 #name {
     width: 100%;
@@ -312,4 +315,5 @@ main {
 .sinalizacao p {
     padding-left: 20px;
     padding-top: 20px;
+    padding-right: 59px;
 }
