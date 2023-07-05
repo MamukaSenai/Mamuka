@@ -65,6 +65,14 @@ aside {
     font-size:large;
 }
 
+.menu a {
+    padding-top: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 800;
+    font-size:large;
+}
+
 .right {
 
     display: flex;
